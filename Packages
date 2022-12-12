@@ -362,15 +362,15 @@ Description: An OpenSesame plug-in for detecting and sending responses and audio
 
 Package: python3-opensesame-plugin-rsvp
 Source: opensesame-plugin-rsvp
-Version: 0.9-1
+Version: 0.11-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 28
-Filename: ./python3-opensesame-plugin-rsvp_0.9-1_all.deb
-Size: 5648
-MD5sum: 57ff0646af2a7c8c9f11226fbecf7c9f
-SHA1: 0e52f12fe5e4f69eeaf948a34ef78a9e9db2fbef
-SHA256: 7000b742e3f8e02d3a5e543d0e5260ea9c637a3418ce3d48b1c5e8d04c5026af
+Installed-Size: 27
+Filename: ./python3-opensesame-plugin-rsvp_0.11-1_all.deb
+Size: 5344
+MD5sum: f89c40f75088d821a4bbf34e18befb5c
+SHA1: 63da5080d33528917d540c4bfd86325fc4c15bb7
+SHA256: 41e22b04fa491320dddf1eb41494ba6ad8aca671428f203cece7f3d54aab1ec0
 Section: python
 Priority: optional
 Homepage: https://github.com/robbertmijn/opensesame-plugin-RSVP
