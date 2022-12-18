@@ -570,19 +570,18 @@ Description: Adds language-server support to pyqode.core
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-pyspellchecker
-Version: 0:0.7.0-1~w2d1
+Version: 0:0.7.1-1~w2d2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2450
-Depends: python3 (>= 3.5~), python3:any
-Filename: ./python3-pyspellchecker_0.7.0-1~w2d1_all.deb
-Size: 2461320
-MD5sum: 67e1f08ceece4b5ae900d91ea839417d
-SHA1: 57a69e6f109fb06098efab6a084b176fe1fa88e4
-SHA256: ffaf333052f5e55fc0c2ab7d835bc8262fb7cfda12b3e0d8316558c274b01836
+Installed-Size: 2451
+Depends: python3 (>= 3.6~), python3:any
+Filename: ./python3-pyspellchecker_0.7.1-1~w2d2_all.deb
+Size: 2461444
+MD5sum: 6636c2cf5b0f1420bbd60b8565c5e02e
+SHA1: 76262459f94283dbd94111e9bc5a3ea5c4a070e2
+SHA256: 6e6bfc79d9a70d9ce444320192021971c816666717e30926b273023872d34714
 Section: python
 Priority: optional
-Homepage: https://github.com/barrust/pyspellchecker
 Description: Pure python spell checker based on work by Peter Norvig
  This package was automatically generated from the upstream wheel by wheel2deb.
 
