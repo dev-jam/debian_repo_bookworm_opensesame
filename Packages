@@ -16,33 +16,32 @@ Description: A Python library for cognitive and neuroscientific experiments
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-eyelinkparser
-Version: 0:0.17.1-1~w2d1
+Version: 0:0.17.4-1~w2d3
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 74
+Installed-Size: 93
 Depends: python3-datamatrix, python3-fastnumbers, python3:any
-Filename: ./python3-eyelinkparser_0.17.1-1~w2d1_all.deb
-Size: 13364
-MD5sum: a04fdabe61ab4edeb28ca4254e74fa0b
-SHA1: 5897f5633e8838d019d54e1a3318d96fa94fe910
-SHA256: bc4212a78e2d1f2b9f71fd289d350352654c693457028565cc69e0be0bc441c5
+Filename: ./python3-eyelinkparser_0.17.4-1~w2d3_all.deb
+Size: 22320
+MD5sum: 2216ac0171e466730d101b54e2c2d0e2
+SHA1: d82d66734525a16cfc63ba00258c41648f3d6b3b
+SHA256: 70a7d8a72b404564170ac288e98f6b77db491281b296464bdccd4bdc7341e4c3
 Section: python
 Priority: optional
-Homepage: https://github.com/smathot/python-eyelinkparser
-Description: An extensible parser for EyeLink data files (EDF)
+Description: This file is part of eyelinkparser.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-fastnumbers
-Version: 0:3.2.1-1~w2d1
+Version: 0:3.2.1-1~w2d3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 120
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-fastnumbers_3.2.1-1~w2d1_amd64.deb
-Size: 25756
-MD5sum: 156d25c8ace5b4dd0b6397c69aac3aef
-SHA1: 86d5b02934720ff8b1a4c8e0cd47aed8e22a234e
-SHA256: 2d187c7f5d477b2985cf0fd2b01064be901c781f625922d23fe412834617b71b
+Installed-Size: 123
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-fastnumbers_3.2.1-1~w2d3_amd64.deb
+Size: 25452
+MD5sum: 5e57c80f7cc254198083d026dfc0c7b5
+SHA1: 612f3e7e3aa3af1baa77e63d5b1c112da33dc971
+SHA256: aea5e9cead1c6dc902403feeccb49c8ffdd23d8ced9693d964e8f19987b4f8ff
 Section: python
 Priority: optional
 Homepage: https://github.com/SethMMorton/fastnumbers
@@ -51,21 +50,21 @@ Description: Super-fast and clean conversions to numbers.
 
 Package: python3-fastnumbers-dbgsym
 Source: python3-fastnumbers
-Version: 0:3.2.1-1~w2d1
+Version: 0:3.2.1-1~w2d3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 74
-Depends: python3-fastnumbers (= 0:3.2.1-1~w2d1)
-Filename: ./python3-fastnumbers-dbgsym_3.2.1-1~w2d1_amd64.deb
-Size: 56388
-MD5sum: 1ff60c89f5261b7fe15474f90bab6f5a
-SHA1: fbf07176d421a76a4788c2737f6dc616d0fb35e7
-SHA256: ace51cb1edac1a7a02f52f7d067fdfe6ec227a5981a5a1351b2e3f350abe7467
+Installed-Size: 20
+Depends: python3-fastnumbers (= 0:3.2.1-1~w2d3)
+Filename: ./python3-fastnumbers-dbgsym_3.2.1-1~w2d3_amd64.deb
+Size: 3452
+MD5sum: 7667a9302a80611e6a4baf424429e398
+SHA1: ae981da33a3f3551df67e3227eab6752ff8bd311
+SHA256: d31aec4d416bd510e98d71ba4c1a3bec8a854d7a094ab5890b70caa35b02a4a9
 Section: debug
 Priority: optional
 Description: debug symbols for python3-fastnumbers
-Build-Ids: 2c56ade88bec039c34347de40d97058f7b02f92a
+Build-Ids: ad4a08e05b0e9d7b7aab01c159219ade79c12966
 
 Package: python3-js2py
 Version: 0:0.74-1~w2d1
@@ -412,16 +411,16 @@ Description: Pure Python, cross platform, single function module with no depende
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
-Version: 0:3.0.18.2-1~w2d1
+Version: 0:3.0.18.2-1~w2d3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2441
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3-numpy (>= 1.7), python3:any
-Filename: ./python3-psychtoolbox_3.0.18.2-1~w2d1_amd64.deb
-Size: 630628
-MD5sum: 51379d1ff05a074f3d367aac39e355bc
-SHA1: a8d579477541d6d782ac723a1f3d28e88888f001
-SHA256: b24c9d20d01ec6e0b239cd9da45ddfd286327a515230f6b8ba0dd71a4081871a
+Installed-Size: 920
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1.7), python3:any
+Filename: ./python3-psychtoolbox_3.0.18.2-1~w2d3_amd64.deb
+Size: 196936
+MD5sum: 6207ba8f1571af429cbf961129dc5992
+SHA1: 07f7263c86632a9e533200f9fb078a7218722f95
+SHA256: d193bfd0ca9ae22a68565b0ef9a680856bfa737cb81ab06de035661c4de5a390
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
@@ -430,33 +429,33 @@ Description: Pieces of Psychtoolbox-3 ported to CPython.
 
 Package: python3-psychtoolbox-dbgsym
 Source: python3-psychtoolbox
-Version: 0:3.0.18.2-1~w2d1
+Version: 0:3.0.18.2-1~w2d3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1295
-Depends: python3-psychtoolbox (= 0:3.0.18.2-1~w2d1)
-Filename: ./python3-psychtoolbox-dbgsym_3.0.18.2-1~w2d1_amd64.deb
-Size: 1012400
-MD5sum: 9f133d18fc7b9dc532a2443a413bbb69
-SHA1: 78fa81382b407e6a5418d43662132974c1ec7d98
-SHA256: e6af813d77463385c5cd9e9e8efca309c2f932115877d27ad15c87945c1b51ed
+Installed-Size: 766
+Depends: python3-psychtoolbox (= 0:3.0.18.2-1~w2d3)
+Filename: ./python3-psychtoolbox-dbgsym_3.0.18.2-1~w2d3_amd64.deb
+Size: 626804
+MD5sum: 759f6774ec25b0bb1331510ec8687f41
+SHA1: 0d166ff5002e13dafa3a8a7af6be11ad39edb99c
+SHA256: d95b761355e02da0a5b1f226ac3bfe6b9d09ce71a1bf0146b960f1f3a843cc3c
 Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
-Build-Ids: 0d549b46caba60d0e070c8c75402b1aa875a281b 1d8d12131e9cdc40965400814ba0b04e32a2784c b4d9e309e320d56e45e3e7bb117c1b26e67195ff c98499bed6d20a8c418f14dd9e692c37af92cacf e46ff8e71877bd6d091cbd29882b69e31304deb3 fc77c46ed0977241adabd55290b76e1ea9d72bc8
+Build-Ids: 0f0bda089ce9791d8eb1d0934b820cc221411c87 1105b6da6fbe1325c7b81daf8418a1224216351b 11671813fec9e4e8365ee27d693688fbce392765 2c26d5d0c4f598707646939c88ce02b464601519 cf6b0ef173ea528be8d3f84efc0853f8affd2f3f
 
 Package: python3-pyalsaaudio
-Version: 0:0.9.2-1~w2d1
+Version: 0:0.9.2-1~w2d3
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 97
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-pyalsaaudio_0.9.2-1~w2d1_amd64.deb
-Size: 23464
-MD5sum: cfd0af59f13da59af76ec0b41327d3d9
-SHA1: 487f9aeb3fd457809f5009f1448a1a6ac5a3c279
-SHA256: f1f8987b36702b19ca9ecd2276c48bd4455f3689e30a651b748bd70e05a1165f
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-pyalsaaudio_0.9.2-1~w2d3_amd64.deb
+Size: 23472
+MD5sum: 2bbc8e8f91b63693ec9298746d6abc93
+SHA1: 52385975e535f1582dce89cd4ebc889df4b6977a
+SHA256: c313bf6caf2dd38163af58a93a733e0f0b1394fad00bc5c036f788ef13a8d8cd
 Section: python
 Priority: optional
 Homepage: http://larsimmisch.github.io/pyalsaaudio/
@@ -465,21 +464,21 @@ Description: ALSA bindings
 
 Package: python3-pyalsaaudio-dbgsym
 Source: python3-pyalsaaudio
-Version: 0:0.9.2-1~w2d1
+Version: 0:0.9.2-1~w2d3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 69
-Depends: python3-pyalsaaudio (= 0:0.9.2-1~w2d1)
-Filename: ./python3-pyalsaaudio-dbgsym_0.9.2-1~w2d1_amd64.deb
-Size: 46060
-MD5sum: de61fbd70ebe5ffae66bea7ebf11bd95
-SHA1: 7420ee397960b07ec967ad4993243de50057de7d
-SHA256: 8d04c4cbc23ac4265fb78bf93fceb8eeaeda5865c6adae9e20412322ae5e1fb2
+Installed-Size: 70
+Depends: python3-pyalsaaudio (= 0:0.9.2-1~w2d3)
+Filename: ./python3-pyalsaaudio-dbgsym_0.9.2-1~w2d3_amd64.deb
+Size: 47480
+MD5sum: 7ca6f746f8e831efdc3954ba55fb82ba
+SHA1: 6d07bb5ebf46a1a0b117869f20b32252357fa069
+SHA256: b10599e16d14d7ba0567951c35b3609ef79c1c6c7e0a63d51956ba495af80e6d
 Section: debug
 Priority: optional
 Description: debug symbols for python3-pyalsaaudio
-Build-Ids: 66ed73501a259f74febd8d3cb058155956372d2c
+Build-Ids: 19d253255b2b2689cc4e5eb26929edb0dd7d4dcb
 
 Package: python3-pyjsparser
 Version: 0:2.7.1-1~w2d1
