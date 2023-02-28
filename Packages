@@ -32,16 +32,16 @@ Description: This file is part of eyelinkparser.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-fastnumbers
-Version: 0:4.0.1-1~w2d0
+Version: 0:5.0.1-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 340
+Installed-Size: 631
 Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
-Filename: ./python3-fastnumbers_4.0.1-1~w2d0_amd64.deb
-Size: 79088
-MD5sum: d5efac1abda2b2a2eb6089f4e19e8ed3
-SHA1: fde4213fd94f123b0c4629812a5446a9952143d6
-SHA256: da063390eff32e432a51992e7f04592aa767cb09d1d088300eaf40cf9d4bf3da
+Filename: ./python3-fastnumbers_5.0.1-1~w2d0_amd64.deb
+Size: 138612
+MD5sum: 0e9f453b5a017f678878f92947f37648
+SHA1: 505c8277e73089b4b1722f4c5f7570c461862213
+SHA256: 52045957ab7c15620ecd9df6968c222a3b68569a349c646282ab41cf4248488b
 Section: python
 Priority: optional
 Homepage: https://github.com/SethMMorton/fastnumbers
@@ -50,21 +50,21 @@ Description: Super-fast and clean conversions to numbers.
 
 Package: python3-fastnumbers-dbgsym
 Source: python3-fastnumbers
-Version: 0:4.0.1-1~w2d0
+Version: 0:5.0.1-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 298
-Depends: python3-fastnumbers (= 0:4.0.1-1~w2d0)
-Filename: ./python3-fastnumbers-dbgsym_4.0.1-1~w2d0_amd64.deb
-Size: 252252
-MD5sum: dab91da1595f0ad0846a4c0535b03c41
-SHA1: 6997029a332b817f754e0256aacc3070604e7458
-SHA256: b59d6d1dd56c2c8658550bbab0fe99f7516a1c40834e5417dbde9b6778bc15d8
+Installed-Size: 1550
+Depends: python3-fastnumbers (= 0:5.0.1-1~w2d0)
+Filename: ./python3-fastnumbers-dbgsym_5.0.1-1~w2d0_amd64.deb
+Size: 1394732
+MD5sum: 38322eb5dbe6f40444ba6fd078ca64dd
+SHA1: 63476ebcf089fb814a02a5a2d03a1d147d6b84d7
+SHA256: 3c22b6f72a8bc6fb9ae90a77d1782765698d9ec9fa8d58d54ff278ed0ef1d6c3
 Section: debug
 Priority: optional
 Description: debug symbols for python3-fastnumbers
-Build-Ids: 488b43c7cc9a29f2c7ba3bf4885c3e7cc04b7625
+Build-Ids: 6bece9cb4a637d9b17c166a0c90bc9c4c5462c53
 
 Package: python3-js2py
 Version: 0:0.74-1~w2d1
