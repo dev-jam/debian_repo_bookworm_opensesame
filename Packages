@@ -174,17 +174,17 @@ Description: OpenSesame OSF extension
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 8.9.2-1
+Version: 9.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 357
 Depends: python3-numpy, python3-pygame, python3-opensesame
 Recommends: python3-pyalsaaudio, python3-sounddevice, python3-pyaudio
-Filename: ./python3-opensesame-plugin-audio-low-latency_8.9.2-1_all.deb
-Size: 71820
-MD5sum: 5b45c1d50f19b02fc4804693ce349ba9
-SHA1: e23cdf129ac84e9031e50c4fddcb697ccc7631c2
-SHA256: c914c990280ba45da3cb3fdddc0b843d20bd09084f0be3b471f04c317c05945d
+Filename: ./python3-opensesame-plugin-audio-low-latency_9.0.0-1_all.deb
+Size: 71908
+MD5sum: d72d7ff37b8eeac030507128e7e4a873
+SHA1: 87457a5716ede5a34d7d02d8f058ac5df16b2f50
+SHA256: 0112ac6e345d953d39e8c5f0f6fcf3c2ebb580cdebec57130719d5ba68c36348
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
@@ -288,16 +288,16 @@ Description: Mousetrap plugin for OpenSesame
 
 Package: python3-opensesame-plugin-parallel-port-trigger
 Source: opensesame-plugin-parallel-port-trigger
-Version: 2.3.0-1
+Version: 3.0.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 166
+Installed-Size: 143
 Depends: python3-opensesame
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_2.3.0-1_all.deb
-Size: 53076
-MD5sum: 54016aab0734d7fbe398269e38ba1396
-SHA1: 63adcf4f58caca0b9ccf17a3e3c2fd6789ba9497
-SHA256: c1fb467c5d1bf79bd690ba347d25b12e7f7774771d60b21bdbca8333df1eeaa8
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.0.0-1_all.deb
+Size: 47316
+MD5sum: d1c84e3b29c8cd5c520a69e147e4568c
+SHA1: e90d492ec54e72aeca4e64d7162e3f450474d9fb
+SHA256: d15e7dc81b617d8aef445e0cc4e3827e1ddba91332f5469fa099806021e42f64
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
