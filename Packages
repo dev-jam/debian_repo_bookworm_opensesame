@@ -319,16 +319,16 @@ Description: Mousetrap plugin for OpenSesame
 
 Package: python3-opensesame-plugin-parallel-port-trigger
 Source: opensesame-plugin-parallel-port-trigger
-Version: 3.0.0-2
+Version: 3.1.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 141
+Installed-Size: 237
 Depends: python3-opensesame, python3-parallel
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.0.0-2_all.deb
-Size: 47416
-MD5sum: f7a84738e1dd3c500fc5585713804004
-SHA1: 2be281ccbad384f4e1bc34e445c80057b9ece49c
-SHA256: fa055eef18d55000f2f1dd7532a7f069699a01bea886e27b9ff41c3995ad9aef
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.1.0-1_all.deb
+Size: 73712
+MD5sum: 2b4fa6d7e3a48b9455ec29bef4cc2e95
+SHA1: d42f27c965c229c567cf0d22251e2323ab2c6392
+SHA256: 774f32d9aff8a321fea6afc26ead98af66cd13099f4851dc2e95951c67434acc
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
