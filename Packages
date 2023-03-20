@@ -475,39 +475,40 @@ Description: Pure Python, cross platform, single function module with no depende
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
-Version: 0:3.0.18.2-1~w2d3
+Source: psychtoolbox
+Version: 3.0.19.0-1
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 920
-Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy (>= 1.7), python3:any
-Filename: ./python3-psychtoolbox_3.0.18.2-1~w2d3_amd64.deb
-Size: 196936
-MD5sum: 6207ba8f1571af429cbf961129dc5992
-SHA1: 07f7263c86632a9e533200f9fb078a7218722f95
-SHA256: d193bfd0ca9ae22a68565b0ef9a680856bfa737cb81ab06de035661c4de5a390
+Installed-Size: 944
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.22), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
+Filename: ./python3-psychtoolbox_3.0.19.0-1_amd64.deb
+Size: 202556
+MD5sum: 8d74636dc416c523065965e5edad4486
+SHA1: 80efce1d8a15bf7e5c7af66449605b5a06926057
+SHA256: bcd918b56afce2908158ae8f55126b2cc907e55e04789dbfdadfa75b1cb3f522
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
 Description: Pieces of Psychtoolbox-3 ported to CPython.
- This package was automatically generated from the upstream wheel by wheel2deb.
+ Pieces of Psychtoolbox-3 ported to CPython.
 
 Package: python3-psychtoolbox-dbgsym
-Source: python3-psychtoolbox
-Version: 0:3.0.18.2-1~w2d3
+Source: psychtoolbox
+Version: 3.0.19.0-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 766
-Depends: python3-psychtoolbox (= 0:3.0.18.2-1~w2d3)
-Filename: ./python3-psychtoolbox-dbgsym_3.0.18.2-1~w2d3_amd64.deb
-Size: 626804
-MD5sum: 759f6774ec25b0bb1331510ec8687f41
-SHA1: 0d166ff5002e13dafa3a8a7af6be11ad39edb99c
-SHA256: d95b761355e02da0a5b1f226ac3bfe6b9d09ce71a1bf0146b960f1f3a843cc3c
+Installed-Size: 806
+Depends: python3-psychtoolbox (= 3.0.19.0-1)
+Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-1_amd64.deb
+Size: 663072
+MD5sum: 2945ace84e8bf1574bdbf3f83debd429
+SHA1: 1d0b4b25f46c57c8e229d72a1ba211c1d10c7da7
+SHA256: f7b35956d5920a43b0779ed17db92a64015de6f871ea4fbf3493e6a981c3f0f4
 Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
-Build-Ids: 0f0bda089ce9791d8eb1d0934b820cc221411c87 1105b6da6fbe1325c7b81daf8418a1224216351b 11671813fec9e4e8365ee27d693688fbce392765 2c26d5d0c4f598707646939c88ce02b464601519 cf6b0ef173ea528be8d3f84efc0853f8affd2f3f
+Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
 
 Package: python3-pyalsaaudio
 Version: 0:0.9.2-1~w2d3
@@ -560,43 +561,6 @@ Priority: optional
 Homepage: https://github.com/PiotrDabkowski/pyjsparser
 Description: Fast javascript parser (based on esprima.js)
  This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-pylspclient
-Source: pylspclient
-Version: 0.0.2-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 59
-Depends: python3:any
-Filename: ./python3-pylspclient_0.0.2-1_all.deb
-Size: 11728
-MD5sum: c7d81709dbd6e7d3068cb14cf5b254fd
-SHA1: 1ccccdb489bfe2302cea7c9685cf0e27840a18d8
-SHA256: 9caf9835eaf78a16fe86d4502ffe47e5245b03b0269e1b3d75b20ffb2b8ae3ec
-Section: python
-Priority: optional
-Homepage: https://github.com/yeger00/pylspclient
-Description: LSP client implementation in Python
- # pylspclient
- [LSP](https://microsoft.github.io/language-server-protocol/) client implementation in Python.
- .
- [![image](https://img.shields.io/pypi/v/pylspclient.svg)](https://pypi.org/project/pylspclient/)
- [![Build Status](https://travis-ci.org/yeger00/pylspclient.svg?branch=master)](https://travis-ci.org/yeger00/pylspclient)
- .
- # What is LSP?
- .
- .
- # Installation
- ```
- pip install pylspclient
- ```
- .
- # Run the tests
- ```
- tox
- ```
- .
- or
 
 Package: python3-pyosf
 Version: 0:1.0.5-1~w2d1
