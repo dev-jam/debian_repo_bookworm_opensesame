@@ -51,16 +51,16 @@ Description: debug symbols for python3-alsaaudio
 Build-Ids: d68028d1e34f58b1a9c9b1eb9b3354ec07b2901d
 
 Package: python3-eyelinkparser
-Version: 0:0.17.4-1~w2d3
+Version: 0:0.17.4-3~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 93
 Depends: python3-datamatrix, python3-fastnumbers, python3:any
-Filename: ./python3-eyelinkparser_0.17.4-1~w2d3_all.deb
+Filename: ./python3-eyelinkparser_0.17.4-3~w2d0_all.deb
 Size: 22320
-MD5sum: 2216ac0171e466730d101b54e2c2d0e2
-SHA1: d82d66734525a16cfc63ba00258c41648f3d6b3b
-SHA256: 70a7d8a72b404564170ac288e98f6b77db491281b296464bdccd4bdc7341e4c3
+MD5sum: 7bfebb2670738857f893883ec7464636
+SHA1: 9ac3f863fb648aca8173339ad7d57446dcb607cb
+SHA256: c3f0f635ed3578a5ad17b421543cafc157d5394ef300a509c8981578fe1715b8
 Section: python
 Priority: optional
 Description: This file is part of eyelinkparser.
