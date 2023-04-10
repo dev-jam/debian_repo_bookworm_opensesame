@@ -562,23 +562,6 @@ Priority: optional
 Description: debug symbols for python3-psychtoolbox
 Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
 
-Package: python3-pyosf
-Version: 0:1.0.5-3~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 106
-Depends: python3 (>= 3.3~), python3:any
-Filename: ./python3-pyosf_1.0.5-3~w2d0_all.deb
-Size: 20420
-MD5sum: 40b21bb1a66ab0a12338b4fc0956bb99
-SHA1: 4cb43ceb26269889d97186b2f96a2404e4fde813
-SHA256: 650f87014450fcd9c3cb34fdc02b0907b4316214b3242dc4fb700e25c1a470f7
-Section: python
-Priority: optional
-Homepage: https://github.com/psychopy/pyosf
-Description: Python lib for synching with OpenScienceFramework projects
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-pyqode.language-server
 Version: 0:0.1.11-3~w2d0
 Architecture: all
