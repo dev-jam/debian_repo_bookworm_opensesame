@@ -226,17 +226,17 @@ Description: OpenSesame OSF extension
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 9.2.0-1
+Version: 9.2.0-2
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 353
 Depends: python3-opensesame, python3-numpy, python3-pygame
-Recommends: python3-pyalsaaudio, python3-sounddevice, python3-pyaudio
-Filename: ./python3-opensesame-plugin-audio-low-latency_9.2.0-1_all.deb
-Size: 71268
-MD5sum: 480605848cec701cd66e84ef0384ff94
-SHA1: 8df3d5fd658153ce852eca692541d24762f59a5a
-SHA256: 2592a5c40ae6bce10326f996fb6b356827d8c2083bf77f83b3457b1f259ee49a
+Recommends: python3-alsaaudio, python3-sounddevice, python3-pyaudio
+Filename: ./python3-opensesame-plugin-audio-low-latency_9.2.0-2_all.deb
+Size: 71264
+MD5sum: 16b49d8b5bbf4ccfeab8d31bd36f3845
+SHA1: 6547d81f9616269e957354ce1f288cc42f1dce9b
+SHA256: e693f61e645393c4fb9e20d423d7d25ddb817893f61b63ef654d9347d23b8edc
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
