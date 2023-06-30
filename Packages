@@ -152,6 +152,28 @@ Homepage: https://github.com/dschreij/python-mediadecoder
 Description: Moviepy based media decoding library
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-moviepy
+Source: moviepy
+Version: 1.0.3-2~bpo12+1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 355
+Depends: python3-decorator, python3-imageio, python3-imageio-ffmpeg | python3 (<< 3.4), python3-numpy, python3-proglog, python3-requests, python3-tqdm, python3:any, ffmpeg
+Suggests: python3-opencv, python3-skimage, python3-sklearn, python3-scipy, python3-matplotlib, youtube-dl, python3-pil, graphicsmagick-imagemagick-compat, fonts-liberation, gsfonts
+Filename: ./python3-moviepy_1.0.3-2~bpo12+1_all.deb
+Size: 88556
+MD5sum: 1f90dec4e9ff23cbb5694c73677ea13b
+SHA1: 1e499cf84f3e1448afe13aef171acbefa66f7801
+SHA256: 885d192402c337da7434ff9e099519e65082177c0cb1ac572cf1bd0e288124e7
+Section: python
+Priority: optional
+Homepage: https://zulko.github.io/moviepy/
+Description: Video editing with Python
+ MoviePy is a Python library for video editing: cutting,
+ concatenations, title insertions, video compositing
+ (a.k.a. non-linear editing), video processing, and creation of custom
+ effects.
+
 Package: python3-opensesame-extension-language-server
 Source: opensesame-extension-language-server
 Version: 0.1.11-1
