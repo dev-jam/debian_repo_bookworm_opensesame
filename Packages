@@ -464,16 +464,15 @@ Description: ROI analysis plugin for OpenSesame and PyGaze
 
 Package: python3-opensesame-plugin-radboudbox
 Source: opensesame-plugin-radboudbox
-Version: 2.3.0-2
+Version: 2.4.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 93
-Depends: python3-opensesame, python3-rusocsci
-Filename: ./python3-opensesame-plugin-radboudbox_2.3.0-2_all.deb
-Size: 23204
-MD5sum: c750bf639fd3aa47986dc75d7b265be8
-SHA1: dc22a4eaab2892611399dd202eb3d2d402981814
-SHA256: 655fd0123a833e4180204a3aacbb1bed15b31adac5c0d1405a85c80696f706f4
+Installed-Size: 91
+Filename: ./python3-opensesame-plugin-radboudbox_2.4.0-1_all.deb
+Size: 23040
+MD5sum: 712b833000df52dd6160aa7c23aec02c
+SHA1: 43df8ff8be7491e8ca62671d356f41601cab14f4
+SHA256: da83f70370d3e417045b719fa03ba07aa32f28f31396598e268adad39dba0d12
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
