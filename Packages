@@ -516,17 +516,17 @@ Description: Add an RSVP task to an OpenSesame experiment
 
 Package: python3-opensesame-plugin-titta-eyetracking
 Source: opensesame-plugin-titta-eyetracking
-Version: 0.2.1-1
+Version: 0.3.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 75
+Installed-Size: 82
 Depends: python3-opensesame
 Recommends: python3-titta, python3-tittapy
-Filename: ./python3-opensesame-plugin-titta-eyetracking_0.2.1-1_all.deb
-Size: 14728
-MD5sum: 6d3f244e44a27b1a02f42860a5293c44
-SHA1: 85b28d1faf221fadd8f83fcff5b4a18617b2975b
-SHA256: bcb4b9f5217b4034103dc5c5f97f7c6a207a0edaea524558ed6153dda3c34932
+Filename: ./python3-opensesame-plugin-titta-eyetracking_0.3.0-1_all.deb
+Size: 17212
+MD5sum: f3a44c3eb2f7d60744df3cda9e367809
+SHA1: 2a12b08a8fa9fecdc7ab9d38947c934318453ec2
+SHA256: 774641f20ba34a17210175035a9b4b14204f0fdd11086b60a76bafbd624dfa54
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
