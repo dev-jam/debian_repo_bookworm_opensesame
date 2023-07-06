@@ -516,33 +516,28 @@ Description: Add an RSVP task to an OpenSesame experiment
 
 Package: python3-opensesame-plugin-titta-eyetracking
 Source: opensesame-plugin-titta-eyetracking
-Version: 0.3.0-1
+Version: 0.4.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 82
+Installed-Size: 84
 Depends: python3-opensesame
 Recommends: python3-titta, python3-tittapy
-Filename: ./python3-opensesame-plugin-titta-eyetracking_0.3.0-1_all.deb
-Size: 17212
-MD5sum: f3a44c3eb2f7d60744df3cda9e367809
-SHA1: 2a12b08a8fa9fecdc7ab9d38947c934318453ec2
-SHA256: 774641f20ba34a17210175035a9b4b14204f0fdd11086b60a76bafbd624dfa54
+Filename: ./python3-opensesame-plugin-titta-eyetracking_0.4.0-1_all.deb
+Size: 17560
+MD5sum: 9d83189b77687757c2f5ef45385e5c42
+SHA1: b6f19df3428b17d299e29412bf834b1272934678
+SHA256: bf1480061277b028503830fa325e47995d12d82f7e80be53622bf7ab97131e6e
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
 Description: Titta Eye Tracking plugin for OpenSesame
- OpenSesame Plug-in: Titta Eye Tracking
- ==========
+ # OpenSesame Plugin: Titta Eye Tracking
  .
- *An OpenSesame plug-in for Titta Eye Tracking.*
+ *Copyright, 2023, Bob Rosbag, Diederick C. Niehorster & Marcus Nyström*
  .
- Copyright, 2023, Bob Rosbag
+ ## About
  .
- .
- ## 1. About
- --------
- .
- This plug-in can be used to use Titta for Eye Tracking.
+ This plugin implements Titta in OpenSesame for Eye Tracking.
  .
  Titta is a toolbox for using eye trackers from Tobii Pro AB with Python, specifically offering integration with PsychoPy. A Matlab version that integrates with PsychToolbox is also available from https://github.com/dcnieho/Titta. For a similar toolbox for SMI eye trackers, please see www.github.com/marcus-nystrom/SMITE.
  .
@@ -550,7 +545,12 @@ Description: Titta Eye Tracking plugin for OpenSesame
  .
  Please mention: Bob Rosbag as creator of this plugin
  .
- For questions, bug reports or to check for updates on Titta, please visit https://github.com/marcus-nystrom/Titta.
+ For questions, bug reports or to check for updates, please visit https://github.com/marcus-nystrom/Titta.
+ .
+ To minimize the risk of missing samples, the current repository uses TittaPy (pip install TittaPy), a C++ wrapper around the Tobii SDK, to pull samples made available from the eye tracker.
+ .
+ .
+ IMPORTANT: This plugin needs PsychoPy as backend AND the dimensions and distance of the monitor have to be set in the PsychoPy monitor config file (for example ~/.psychopy3/testMonitor.json)
 
 Package: python3-pipewire
 Version: 0:0.2.3-3~w2d0
