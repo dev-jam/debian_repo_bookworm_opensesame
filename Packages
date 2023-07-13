@@ -567,6 +567,24 @@ Priority: optional
 Description: debug symbols for python3-psychtoolbox
 Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
 
+Package: python3-pyqode.python
+Source: pyqode.python
+Version: 3.2.4-1
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 163
+Depends: python3-autopep8, python3-docutils, python3-jedi, python3-pycodestyle, python3-pyflakes, python3-pyqode.core, python3-pyqode.qt, python3:any
+Filename: ./python3-pyqode.python_3.2.4-1_all.deb
+Size: 34612
+MD5sum: 856abe4106c8403d24564044eae2e8e4
+SHA1: a37ae65d56ec75d184a726762054f04d0c72dd21
+SHA256: 7790d15782e5de3d24fb783b25872699195db58e8b850c42749e5d08ccbd1c3e
+Section: python
+Priority: optional
+Homepage: https://github.com/pyQode/pyqode.python
+Description: Adds python support to pyqode.core
+ Adds python support to pyqode.core
+
 Package: python3-qtpip
 Version: 0:0.3.0-3~w2d0
 Architecture: all
