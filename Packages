@@ -174,42 +174,6 @@ Description: Video editing with Python
  (a.k.a. non-linear editing), video processing, and creation of custom
  effects.
 
-Package: python3-opensesame-extension-language-server
-Source: opensesame-extension-language-server
-Version: 0.1.11-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 87
-Depends: python3-yaml, python3-rapunzel, python3-pyqode.language-server
-Filename: ./python3-opensesame-extension-language-server_0.1.11-1_all.deb
-Size: 18900
-MD5sum: 2ae3a61dae99d82334cb4d80869a2555
-SHA1: 986e835e41570177a8cba973600a8062f1d2fd4a
-SHA256: a3a9684c8e7449e8b96ce8a97159cf1c76d3f1c37152de80028bc909a6fb8bbe
-Section: python
-Priority: optional
-Homepage: https://github.com/open-cogsci/opensesame-extension-language_server
-Description: Adds language-server support to OpenSesame and Rapunzel
- # Language-server extension for OpenSesame and Rapunzel
- .
- Copyright 2020-2021 Sebastiaan Mathôt (@smathot)
- .
- .
- ## About
- .
- This extension adds language-server-protocol (LSP) support to Rapunzel (a code editor based on OpenSesame) and OpenSesame. The Language Server protocol is used between a tool (the client) and a language smartness provider (the server) to integrate features like auto complete, go to definition, find all references and alike into the tool
- .
- - OpenSesame: <https://osdoc.cogsci.nl/>
- - Rapunzel: <https://rapunzel.cogsci.nl/>
- - Language servers: <https://langserver.org/>
- .
- .
- ## Dependencies
- .
- .
- - Required: [pyqode.language_server](https://github.com/open-cogsci/pyqode.language_server)
- - Optional: See [this page](https://rapunzel.cogsci.nl/manual/language-server) for a list of supported language servers
-
 Package: python3-opensesame-extension-omm
 Source: opensesame-extension-omm
 Version: 0.6.3-1
@@ -227,24 +191,6 @@ Priority: optional
 Homepage: https://github.com/open-cogsci/omm-client
 Description: OpenMonkeyMind plugins and extension for OpenSesame
  OpenMonkeyMind plugins and extension for OpenSesame
-
-Package: python3-opensesame-extension-osf
-Source: opensesame-extension-osf
-Version: 1.2.1-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 106
-Depends: python3-qosf
-Filename: ./python3-opensesame-extension-osf_1.2.1-1_all.deb
-Size: 19500
-MD5sum: ff46f26ba5cb6f23c089344d6e9d7dab
-SHA1: c7a3667290fafee6f531b5ab543e1db02435a240
-SHA256: 2dab4c79ddd8cac1887ac26490995a8032189f5a8afc7ee37fb394176fb8ba9c
-Section: python
-Priority: optional
-Homepage: https://github.com/dschreij/opensesame-osf
-Description: OpenSesame OSF extension
- OpenSesame OSF extension
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
@@ -620,58 +566,6 @@ Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
 Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
-
-Package: python3-pyqode.language-server
-Version: 0:0.1.11-3~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 58
-Depends: python3 (>= 3.2~), python3-pyqode.python, python3:any
-Filename: ./python3-pyqode.language-server_0.1.11-3~w2d0_all.deb
-Size: 11224
-MD5sum: edc426ba8bcb139bf0a6dd6fc6c72fd0
-SHA1: 40cfb4eb15b802fd2730d61c66ecb4cbc51ddb39
-SHA256: a3da975607dc75ec19d7568788d4c318fddf51a296c24c452549644a3718c4b2
-Section: python
-Priority: optional
-Homepage: https://github.com/open-cogsci/pyqode.language_server
-Description: Adds language-server support to pyqode.core
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-pyqode.python
-Source: pyqode.python
-Version: 3.2.4-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 163
-Depends: python3-autopep8, python3-docutils, python3-jedi, python3-pycodestyle, python3-pyflakes, python3-pyqode.core, python3-pyqode.qt, python3:any
-Filename: ./python3-pyqode.python_3.2.4-1_all.deb
-Size: 34612
-MD5sum: 856abe4106c8403d24564044eae2e8e4
-SHA1: a37ae65d56ec75d184a726762054f04d0c72dd21
-SHA256: 7790d15782e5de3d24fb783b25872699195db58e8b850c42749e5d08ccbd1c3e
-Section: python
-Priority: optional
-Homepage: https://github.com/pyQode/pyqode.python
-Description: Adds python support to pyqode.core
- Adds python support to pyqode.core
-
-Package: python3-qosf
-Version: 0:1.3.1-3~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 253
-Depends: python3-arrow, python3-dotenv, python3-fileinspector, python3-humanize, python3-qtawesome (>= 0.5.7), python3-qtpy, python3-requests-oauthlib (>= 0.6), python3:any
-Filename: ./python3-qosf_1.3.1-3~w2d0_all.deb
-Size: 84880
-MD5sum: d7ab9c494a340d8599d834647eff0a52
-SHA1: cd38f8170818e13838be27c1cb2a1c4ba298caf6
-SHA256: 89a34e72b644b4927ff344ab43affd8372f105498eb0dee57b87e6427afafae6
-Section: python
-Priority: optional
-Homepage: https://github.com/dschreij/QOpenScienceFramework
-Description: Qt widgets for the Open Science Framework
- This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-qtpip
 Version: 0:0.3.0-3~w2d0
