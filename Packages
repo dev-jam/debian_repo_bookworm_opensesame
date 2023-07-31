@@ -653,16 +653,16 @@ Description: Pure python spell checker based on work by Peter Norvig
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sr-research-pylink
-Version: 0:2.1.48068.0-1~w2d1
+Version: 0:2.1.762.0-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 307
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-sr-research-pylink_2.1.48068.0-1~w2d1_amd64.deb
-Size: 65480
-MD5sum: c97e07d760d150d2d9e851bc6811c3a7
-SHA1: c95fe8c0214508019e2dfa5251c1a5364ee1d208
-SHA256: 3aee0bf63f67c312de5fd9bd52ca77af0f9e35beb61b8e21d57b9734b50d0628
+Installed-Size: 314
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: ./python3-sr-research-pylink_2.1.762.0-1~w2d0_amd64.deb
+Size: 64620
+MD5sum: fbfc02c8b453d27f75b75839e3fbf8db
+SHA1: bd6ef7283db7c36f5b3335cd7c3001ca6d359705
+SHA256: 939c89b81f0198ac358f8adad7ae930229b46ac60846e3701a6ee736e403eb4b
 Section: python
 Priority: optional
 Homepage: https://www.sr-support.com
@@ -671,21 +671,21 @@ Description: Python module for interfacing SR Research EyeLink eye trackers
 
 Package: python3-sr-research-pylink-dbgsym
 Source: python3-sr-research-pylink
-Version: 0:2.1.48068.0-1~w2d1
+Version: 0:2.1.762.0-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 129
-Depends: python3-sr-research-pylink (= 0:2.1.48068.0-1~w2d1)
-Filename: ./python3-sr-research-pylink-dbgsym_2.1.48068.0-1~w2d1_amd64.deb
-Size: 94692
-MD5sum: 18fb8e3c93f28989d92b140ad68b13e9
-SHA1: 774aa92643836498f3411cd480c245124cfe942c
-SHA256: 0c7a41e681be49e5264f61b0987852f93f398d70f69c0e9ad472576f9795e4cc
+Installed-Size: 133
+Depends: python3-sr-research-pylink (= 0:2.1.762.0-1~w2d0)
+Filename: ./python3-sr-research-pylink-dbgsym_2.1.762.0-1~w2d0_amd64.deb
+Size: 99160
+MD5sum: d455f181262a6dba2282771cdc2bfb03
+SHA1: a8901aa4d1909ba15fe975d713af0fd70b15e80a
+SHA256: 0cb402d25654561ccc52b816659877a7ea1addf5d7f7e243dd15542b7aa9676d
 Section: debug
 Priority: optional
 Description: debug symbols for python3-sr-research-pylink
-Build-Ids: 3e7e90e8a3190839139039b5afba3977ae30a3f0 ade1d0071f951bf0853d94438b5ff3b177fd28c6
+Build-Ids: 776db8427e20016b41df23ddac7fc5053d1f8ad0 f1be899bb4635d6d6bf45537e8cccd58fe077ef8
 
 Package: python3-tobii-research
 Version: 0:1.10.2-1~w2d1
