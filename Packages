@@ -194,17 +194,17 @@ Description: OpenMonkeyMind plugins and extension for OpenSesame
 
 Package: python3-opensesame-plugin-audio-low-latency
 Source: opensesame-plugin-audio-low-latency
-Version: 9.2.0-2
+Version: 9.3.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 353
 Depends: python3-opensesame, python3-numpy, python3-pygame
 Recommends: python3-alsaaudio, python3-sounddevice, python3-pyaudio
-Filename: ./python3-opensesame-plugin-audio-low-latency_9.2.0-2_all.deb
-Size: 71264
-MD5sum: 16b49d8b5bbf4ccfeab8d31bd36f3845
-SHA1: 6547d81f9616269e957354ce1f288cc42f1dce9b
-SHA256: e693f61e645393c4fb9e20d423d7d25ddb817893f61b63ef654d9347d23b8edc
+Filename: ./python3-opensesame-plugin-audio-low-latency_9.3.0-1_all.deb
+Size: 71256
+MD5sum: b4ddffbe0c77c75433868ebb2fd7731d
+SHA1: 71a3972299a7fac1715a4b5413d78e3d64604cfa
+SHA256: 74904fed58013511ec3dee78d346e183165dd461a4244266d9f2e9005d0cdf9a
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
@@ -248,16 +248,16 @@ Description: Screen broadcast plugin for OpenSesame
 
 Package: python3-opensesame-plugin-experiment-manager
 Source: opensesame-plugin-experiment-manager
-Version: 2.3.0-2
+Version: 2.4.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 28
 Depends: python3-opensesame
-Filename: ./python3-opensesame-plugin-experiment-manager_2.3.0-2_all.deb
-Size: 7368
-MD5sum: 80a2f9ae5fe809b69f7969164264ce1a
-SHA1: 44560b3d7958c5a43abb2d9ab8ae6baf44efa426
-SHA256: 528852abee782865c2d093c1b653940041eb12ef37b4d95535c63c8db546b156
+Filename: ./python3-opensesame-plugin-experiment-manager_2.4.0-1_all.deb
+Size: 7356
+MD5sum: 2d5a2b3c22a2bbaa68c7d4c375fa47c7
+SHA1: 650afa560a2f65a5b751cee2cbf749cfdc52a050
+SHA256: 9d0e7e7809dc40f88e093ea0f30b4774ed898b74934ba7831329c911e24b6868
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
@@ -339,16 +339,16 @@ Description: Mousetrap plugin for OpenSesame
 
 Package: python3-opensesame-plugin-parallel-port-trigger
 Source: opensesame-plugin-parallel-port-trigger
-Version: 3.1.0-1
+Version: 3.2.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 237
 Depends: python3-opensesame, python3-parallel
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.1.0-1_all.deb
-Size: 73712
-MD5sum: 2b4fa6d7e3a48b9455ec29bef4cc2e95
-SHA1: d42f27c965c229c567cf0d22251e2323ab2c6392
-SHA256: 774f32d9aff8a321fea6afc26ead98af66cd13099f4851dc2e95951c67434acc
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.2.0-1_all.deb
+Size: 73776
+MD5sum: 17c3fde426f1a35410a9322579fd0f36
+SHA1: 8b78650ad22e9ca848e02f74cc79d0f817c0b6af
+SHA256: 237c934e7d57efb7d00b80039b418da98631939bf066d99b2a769d86f9198d41
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
@@ -410,15 +410,16 @@ Description: ROI analysis plugin for OpenSesame and PyGaze
 
 Package: python3-opensesame-plugin-radboudbox
 Source: opensesame-plugin-radboudbox
-Version: 2.4.0-1
+Version: 2.5.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 91
-Filename: ./python3-opensesame-plugin-radboudbox_2.4.0-1_all.deb
-Size: 23040
-MD5sum: 712b833000df52dd6160aa7c23aec02c
-SHA1: 43df8ff8be7491e8ca62671d356f41601cab14f4
-SHA256: da83f70370d3e417045b719fa03ba07aa32f28f31396598e268adad39dba0d12
+Installed-Size: 92
+Depends: python3-opensesame, python3-rusocsci
+Filename: ./python3-opensesame-plugin-radboudbox_2.5.0-1_all.deb
+Size: 23132
+MD5sum: 66bd5c38bbd412ab10be0157993fcd77
+SHA1: 5a076f82ba65bd73c396c32f53259c2ddc8b8bda
+SHA256: d6cac0a382509dba806f173b8b2513dba5613aa847e12341d956d77a2170403d
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
@@ -462,17 +463,17 @@ Description: Add an RSVP task to an OpenSesame experiment
 
 Package: python3-opensesame-plugin-titta-eyetracking
 Source: opensesame-plugin-titta-eyetracking
-Version: 0.4.0-1
+Version: 0.5.0-1
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 84
 Depends: python3-opensesame
 Recommends: python3-titta, python3-tittapy
-Filename: ./python3-opensesame-plugin-titta-eyetracking_0.4.0-1_all.deb
+Filename: ./python3-opensesame-plugin-titta-eyetracking_0.5.0-1_all.deb
 Size: 17560
-MD5sum: 9d83189b77687757c2f5ef45385e5c42
-SHA1: b6f19df3428b17d299e29412bf834b1272934678
-SHA256: bf1480061277b028503830fa325e47995d12d82f7e80be53622bf7ab97131e6e
+MD5sum: 2c4a36c5c40a3ee8b6d9f2268595ba05
+SHA1: 813c7af36af379939ed4b45102d6f4238ceb6171
+SHA256: 7572b9f1a9dccc3f6a3a34cb6ff9f0e0bba77bfd0564022b2194e8c2a5bcb451
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
