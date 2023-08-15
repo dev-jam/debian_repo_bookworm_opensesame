@@ -174,330 +174,141 @@ Description: Video editing with Python
  (a.k.a. non-linear editing), video processing, and creation of custom
  effects.
 
-Package: python3-opensesame-extension-omm
-Source: opensesame-extension-omm
-Version: 0.6.3-1
+Package: python3-opensesame-extension-osweb
+Version: 0:2.0.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 161
-Depends: python3-requests, python3:any, python3-opensesame
-Filename: ./python3-opensesame-extension-omm_0.6.3-1_all.deb
-Size: 37356
-MD5sum: 43792a1e7b5d8d35edb24cc80a04eec6
-SHA1: 7fb6d771095b0b5f2f930f2f280b9178da77c121
-SHA256: 2a645f36b1a09d1dc67d33812da31ffb0793589a95548b8a4ac199ebdfe5add9
+Installed-Size: 8778
+Depends: python3 (>= 3.4~), python3-bs4, python3-esprima, python3-javascripthon, python3-js2py, python3:any
+Filename: ./python3-opensesame-extension-osweb_2.0.1.0-1~w2d0_all.deb
+Size: 1016004
+MD5sum: 6876c3bdb6bceb1ed7c5b74ede90e4b4
+SHA1: 4bbb472dafcd73649b212fbd7372e9ad0d017f7c
+SHA256: 5da550768308590b52e0216bd4f619cba3b9b433f0c0b7555d54c006148e4b78
 Section: python
 Priority: optional
-Homepage: https://github.com/open-cogsci/omm-client
-Description: OpenMonkeyMind plugins and extension for OpenSesame
- OpenMonkeyMind plugins and extension for OpenSesame
+Homepage: https://osdoc.cogsci.nl
+Description: Extensions and plugins for OpenSesame to run experiments in a browser using OSWeb
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Source: opensesame-plugin-audio-low-latency
-Version: 9.3.0-1
+Version: 0:10.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 353
-Depends: python3-opensesame, python3-numpy, python3-pygame
-Recommends: python3-alsaaudio, python3-sounddevice, python3-pyaudio
-Filename: ./python3-opensesame-plugin-audio-low-latency_9.3.0-1_all.deb
-Size: 71256
-MD5sum: b4ddffbe0c77c75433868ebb2fd7731d
-SHA1: 71a3972299a7fac1715a4b5413d78e3d64604cfa
-SHA256: 74904fed58013511ec3dee78d346e183165dd461a4244266d9f2e9005d0cdf9a
+Installed-Size: 397
+Depends: python3 (>= 3.7~), python3-alsaaudio (>= 0.8.4), python3-numpy (>= 1.24.2), python3-opensesame (>= 4.0.0~a0), python3-pyaudio (>= 0.2.13), python3-pygame (>= 2.1.2), python3-sounddevice (>= 0.4.6), python3:any
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.0.0-1~w2d0_all.deb
+Size: 85592
+MD5sum: 09489aa3ef90ce87ed096e0e5dd27ac7
+SHA1: 2254c95ca51debdf6ce27e7fb8e4c762c875507a
+SHA256: c57b303aa25883bd659c25ad37cb250d5d62008f8cf2d9e98d6ab40badeb9e9b
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
-Description: An OpenSesame Plug-in for playing and recording audio files
- OpenSesame Plug-in: Audio Low Latency
- ==========
- .
- *An OpenSesame plug-in for playing and recording audio files with low latency.*
- .
- Copyright, 2022, Bob Rosbag
- .
- .
- ## 1. About
- --------
- .
- The main goal of this plug-in is to play and record audio with minimal and predictable latencies to achieve a high accuracy and precision. The 'PyAlsaAudio' package which uses the Linux ALSA audio system provided the best results within Python.
- 'PortAudio' and 'sounddevice' are cross-platform and work on both Windows as Linux.
- .
- This plug-in consist of playback and recording items as well as foreground as background (multi-threaded) items.
- Both playback and recording have their own *init* item. These should be placed at the beginning of an experiment.
- .
- .
- Difference between foreground and background:
-
-Package: python3-opensesame-plugin-broadcast-screen
-Source: opensesame-plugin-broadcast-screen
-Version: 0.2.1-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 33
-Filename: ./python3-opensesame-plugin-broadcast-screen_0.2.1-1_all.deb
-Size: 8728
-MD5sum: d2f20175aeed98bdfd81fc7da9471500
-SHA1: 6afb4b16103a056cc206dbb08dc40ed87dcecf85
-SHA256: d981b5cc962d7f0190b4569a0bd8691d8d3ee8cc227ac5b8bec2ff8cbf8c1084
-Section: python
-Priority: optional
-Homepage: https://github.com/smathot/opensesame-plugin-broadcast_screen
-Description: Screen broadcast plugin for OpenSesame
- Screen broadcast plugin for OpenSesame
+Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-experiment-manager
-Source: opensesame-plugin-experiment-manager
-Version: 2.4.0-1
+Version: 0:3.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 28
-Depends: python3-opensesame
-Filename: ./python3-opensesame-plugin-experiment-manager_2.4.0-1_all.deb
-Size: 7356
-MD5sum: 2d5a2b3c22a2bbaa68c7d4c375fa47c7
-SHA1: 650afa560a2f65a5b751cee2cbf749cfdc52a050
-SHA256: 9d0e7e7809dc40f88e093ea0f30b4774ed898b74934ba7831329c911e24b6868
+Installed-Size: 69
+Depends: python3 (>= 3.7~), python3-opensesame (>= 4.0.0~a0), python3:any
+Filename: ./python3-opensesame-plugin-experiment-manager_3.0.0-1~w2d0_all.deb
+Size: 18856
+MD5sum: 5fe776c6197dfda3cf0d4d00945a5569
+SHA1: 95c2ef3435c6b2ffbc935cc9aba6eeaa392a18e0
+SHA256: 58a0dc9031c8a4d2b7780a0d4e0a632213acc3ec8b1253d3ed8a4b67f5665737
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
-Description: An OpenSesame Plug-in for managing/executing multiple OpenSe
- OpenSesame Plug-in: Experiment Manager
- ==========
- .
- *An OpenSesame plug-in for managing/executing multiple OpenSesame experiments.*
- .
- Copyright, 2022, Bob Rosbag
- .
- .
- ## 1. About
- --------
- .
- This plug-in can insert standalone OpenSesame Experiments within a main experiment.
- It can run within a loop or sequence as an item. This makes it possible to run a number
- of experiments in sequence (random or fixed order) and also it gives the possibility to
- give each experiment its own (different) backend.
- .
- This plug-in has three options:
- .
- - *Dummy mode* for testing experiments.
- - *Verbose mode* for testing experiments.
+Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame experiments.
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-media-player-mpy
-Source: opensesame-plugin-media-player-mpy
-Version: 0.1.11-1
+Version: 0:0.2.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 57
-Depends: python3-mediadecoder
-Filename: ./python3-opensesame-plugin-media-player-mpy_0.1.11-1_all.deb
-Size: 12208
-MD5sum: 759622d7bb29c11d7184267bdcc2c4cc
-SHA1: 580295bbf994d7c992c34b1cea0a4f2f39ddf184
-SHA256: 1aa4ba9fd06b921585ff804cfbe8b526c963f00cd7ca894c886e7a662fcfb01f
+Installed-Size: 329
+Depends: python3 (>= 3.4~), python3-mediadecoder, python3:any
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.2.2-1~w2d0_all.deb
+Size: 57728
+MD5sum: 5438de99839211409dd14783a8475461
+SHA1: c9316c8c2a6d4fa8639795cac04198438408b9be
+SHA256: df80cf3156316dd610aa18ab3c28d3c5fdd9648a44269686e0055ab6879cab0b
 Section: python
 Priority: optional
-Homepage: https://github.com/dschreij/opensesame-plugin-mediaplayer
-Description: Media player plugin for OpenSesame, based on MoviePy
- Media player plugin for OpenSesame, based on MoviePy
-
-Package: python3-opensesame-plugin-mousetrap
-Source: opensesame-plugin-mousetrap
-Version: 2.0.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 113
-Filename: ./python3-opensesame-plugin-mousetrap_2.0.0-1_all.deb
-Size: 23616
-MD5sum: e0bc1a9cce72bfd55d81571bb7ca39fd
-SHA1: 43b13430cf6220c130db20afca71712d0b2f17b8
-SHA256: c10a4d16613aa1bbb6db52fd48f851c3971ae3e42ba7cb951298b34c88df1fde
-Section: python
-Priority: optional
-Homepage: https://github.com/PascalKieslich/mousetrap-os
-Description: Mousetrap plugin for OpenSesame
- .
- Mousetrap plugin for OpenSesame
- ===============================
- .
- **Easily build mouse-tracking experiments with OpenSesame.**
- .
- The Mousetrap plugin provides two items that implement mouse-tracking in `OpenSesame`_. Both offer different ways of implementing mouse-tracking:
- .
- The `mousetrap_response item`_ tracks mouse movements while another stimulus (e.g., a sketchpad) is presented.
- .
- The `mousetrap_form item`_ allows tracking of mouse movements in custom forms specified using OpenSesame script.
- .
- More information about each item can be found in the corresponding helpfile (as linked above). Besides, a number of example experiments that demonstrate the basic features of the items can be found in the `examples folder`_.
- .
- Once data have been collected with the mousetrap plugin, the data can be processed, analyzed and visualized using the `mousetrap R package`_.
- .
- .. _OpenSesame: http://osdoc.cogsci.nl/
- .. _mousetrap_response item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_response/mousetrap_response.md
- .. _mousetrap_form item: https://github.com/PascalKieslich/mousetrap-os/blob/master/plugins/mousetrap_form/mousetrap_form.md
- .. _examples folder: https://github.com/PascalKieslich/mousetrap-os/blob/master/examples
+Homepage: https://osdoc.cogsci.nl
+Description: A video playback plugin for OpenSesame, based on MoviePy
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
-Source: opensesame-plugin-parallel-port-trigger
-Version: 3.2.0-1
+Version: 0:4.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 237
-Depends: python3-opensesame, python3-parallel
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_3.2.0-1_all.deb
-Size: 73776
-MD5sum: 17c3fde426f1a35410a9322579fd0f36
-SHA1: 8b78650ad22e9ca848e02f74cc79d0f817c0b6af
-SHA256: 237c934e7d57efb7d00b80039b418da98631939bf066d99b2a769d86f9198d41
+Installed-Size: 279
+Depends: python3 (>= 3.7~), python3-opensesame (>= 4.0.0~a0), python3-parallel (>= 0.2.2), python3:any
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.0.0-1~w2d0_all.deb
+Size: 84708
+MD5sum: 12085545218a475f4914b7ab8f2a99b9
+SHA1: 4859009357fe9862edf523fad15380ad06e21cbd
+SHA256: 2008d5193b9ab0a8bbc6e40fd583f3f69c385cc8322989cadfcd1c3dcc1a6879
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
-Description: An OpenSesame Plug-in for sending stimulus synchronization t
- OpenSesame Plug-in: Parallel Port Trigger
- ==========
- .
- *An OpenSesame plug-in for sending stimulus synchronization triggers through the parallel port to data acquisition systems.*
- .
- Copyright, 2022, Bob Rosbag
- .
- Contributions: Code is based on the work of Per Sederberg. Debugged and polished by Edwin Dalmaijer.
- .
- .
- ## 1. About
- --------
- .
- In EEG/ERP studies it is common to send triggers to mark the timestamp for significant events (e.g., the onset of a trial, presentation of a particular stimulus, etc.). Triggers are typically bytes that are sent via the parallel port to data acquisition systems.
- .
- The plug-in has an *init* item which should be placed at the beginning of an experiment and a *trigger* item for initiating triggers:
- .
- - *Dummy mode* for testing experiments.
- - *Port adress* for Windows: hexadecimal or decimal value, for Linux: full path or port number.
- - *Value* is a positive integer between 1-255 and specifies the trigger byte.
+Description: An OpenSesame Plug-in for sending stimulus synchronization triggers through the parallel port to data acquisition systems
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-psychopy
-Source: opensesame-plugin-psychopy
-Version: 0.6.2-1
+Version: 0:0.8.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 42
-Filename: ./python3-opensesame-plugin-psychopy_0.6.2-1_all.deb
-Size: 11256
-MD5sum: 759d3e53e286b00a5a7edf23a2aa3dda
-SHA1: 640bcfc38f7c1d28d2294281d3eed02f5fc91f32
-SHA256: e43b7dcf69f07a7d108a7f44756393bb7b336812a3ea822eefb733fee47e4e06
+Installed-Size: 411
+Depends: python3 (>= 3.7~), python3-opensesame (>> 3.99.99), python3:any
+Filename: ./python3-opensesame-plugin-psychopy_0.8.0-1~w2d0_all.deb
+Size: 42468
+MD5sum: 389565e5cff9b65d915eab0678071fa0
+SHA1: 50e9b4af387fd3cc7a1431c1a6fff4d14a27b3a4
+SHA256: ffa1640851c0d77f9360e7e80c77cee6628fb58a80099a17e6a73544e29db5c6
 Section: python
 Priority: optional
-Homepage: https://github.com/smathot/opensesame-plugin-psychopy
+Homepage: https://osdoc.cogsci.nl/
 Description: PsychoPy plugins for OpenSesame
- No readme information
-
-Package: python3-opensesame-plugin-pygaze-roi
-Source: opensesame-plugin-pygaze-roi
-Version: 0.1.0-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 24
-Filename: ./python3-opensesame-plugin-pygaze-roi_0.1.0-1_all.deb
-Size: 5564
-MD5sum: 2a655aa73e8480f0f3a9c0b08941539b
-SHA1: 2ae38dd717827d3da873841c306f6e6a38c8aea3
-SHA256: d6c1b5fa7293ed6f59cf562ec09a3613f2bf2f7d0dd9bef7c9cc874f7f58200f
-Section: python
-Priority: optional
-Homepage: https://github.com/smathot/opensesame-plugin-pygaze_roi
-Description: ROI analysis plugin for OpenSesame and PyGaze
- ROI analysis plugin for OpenSesame and PyGaze
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Source: opensesame-plugin-radboudbox
-Version: 2.5.0-1
+Version: 0:3.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 92
-Depends: python3-opensesame, python3-rusocsci
-Filename: ./python3-opensesame-plugin-radboudbox_2.5.0-1_all.deb
-Size: 23132
-MD5sum: 66bd5c38bbd412ab10be0157993fcd77
-SHA1: 5a076f82ba65bd73c396c32f53259c2ddc8b8bda
-SHA256: d6cac0a382509dba806f173b8b2513dba5613aa847e12341d956d77a2170403d
+Installed-Size: 132
+Depends: python3 (>= 3.7~), python3-opensesame (>= 4.0.0~a0), python3-rusocsci (>= 0.9.2), python3:any
+Filename: ./python3-opensesame-plugin-radboudbox_3.0.0-1~w2d0_all.deb
+Size: 35172
+MD5sum: 5ca738f5ddcec0a159aa287b9c2161bf
+SHA1: bdcf0d85c366740a7dc1630696064f5a1ee04dc9
+SHA256: 9647873a28d7d70ca8a3ac7381f7d28c768cb4558706a9a01fcddc7edbc9b643
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
-Description: An OpenSesame Plug-in for collecting button responses, audio
- OpenSesame Plug-in: Radboud Buttonbox
- ==========
- .
- *An OpenSesame plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems.*
- .
- Copyright, 2022, Bob Rosbag
- .
- This plugin makes use of the RuSocSci python package developed by Wilbert van der Ham. Radboud Buttonbox is developed by Pascal de Water. Exact references will follow in the future.
- .
- .
- ## 1. About
- --------
- .
- The Technical Support Group (Radboud University, Social Sciences) developed an USB Arduino based Buttonbox which can be used for time accurate(1ms) button press, voice key, sound key registration and sending parallel port like triggers.
- Upper case A, B, C, D, E, F are used for key presses, and lower case a, b, c, d, e, f are used for key releases. Uppercase S is used for sound key detection and uppercase V for voice key.
- .
- For more information:
- .
- <http://tsgdoc.socsci.ru.nl/index.php?title=ButtonBoxes>
-
-Package: python3-opensesame-plugin-rsvp
-Source: opensesame-plugin-rsvp
-Version: 0.11-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 27
-Filename: ./python3-opensesame-plugin-rsvp_0.11-1_all.deb
-Size: 5344
-MD5sum: f89c40f75088d821a4bbf34e18befb5c
-SHA1: 63da5080d33528917d540c4bfd86325fc4c15bb7
-SHA256: 41e22b04fa491320dddf1eb41494ba6ad8aca671428f203cece7f3d54aab1ec0
-Section: python
-Priority: optional
-Homepage: https://github.com/robbertmijn/opensesame-plugin-RSVP
-Description: Add an RSVP task to an OpenSesame experiment
- Add an RSVP task to an OpenSesame experiment
+Description: An OpenSesame Plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-titta-eyetracking
-Source: opensesame-plugin-titta-eyetracking
-Version: 0.5.0-1
+Version: 0:1.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 84
-Depends: python3-opensesame
-Recommends: python3-titta, python3-tittapy
-Filename: ./python3-opensesame-plugin-titta-eyetracking_0.5.0-1_all.deb
-Size: 17560
-MD5sum: 2c4a36c5c40a3ee8b6d9f2268595ba05
-SHA1: 813c7af36af379939ed4b45102d6f4238ceb6171
-SHA256: 7572b9f1a9dccc3f6a3a34cb6ff9f0e0bba77bfd0564022b2194e8c2a5bcb451
+Installed-Size: 103
+Depends: python3 (>= 3.7~), python3-opensesame (>= 4.0.0~a0), python3-titta (>= 1.9.0), python3-tittapy (>= 1.0.0), python3:any
+Filename: ./python3-opensesame-plugin-titta-eyetracking_1.0.0-1~w2d0_all.deb
+Size: 18684
+MD5sum: 0792bff52a1ff708133bd9dcf0baa044
+SHA1: 11a85df950703e26bf67872118f605771fea7855
+SHA256: a02e5dc7b3802e62c750136cf3c2a815f4d14fdaa2dc83da36e60f134dcaf043
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
 Description: Titta Eye Tracking plugin for OpenSesame
- # OpenSesame Plugin: Titta Eye Tracking
- .
- *Copyright, 2023, Bob Rosbag, Diederick C. Niehorster & Marcus Nyström*
- .
- ## About
- .
- This plugin implements Titta in OpenSesame for Eye Tracking.
- .
- Titta is a toolbox for using eye trackers from Tobii Pro AB with Python, specifically offering integration with PsychoPy. A Matlab version that integrates with PsychToolbox is also available from https://github.com/dcnieho/Titta. For a similar toolbox for SMI eye trackers, please see www.github.com/marcus-nystrom/SMITE.
- .
- Cite as: Niehorster, D.C., Andersson, R. & Nystrom, M. (2020). Titta: A toolbox for creating PsychToolbox and Psychopy experiments with Tobii eye trackers. Behavior Research Methods. doi: 10.3758/s13428-020-01358-8
- .
- Please mention: Bob Rosbag as creator of this plugin
- .
- For questions, bug reports or to check for updates, please visit https://github.com/marcus-nystrom/Titta.
- .
- To minimize the risk of missing samples, the current repository uses TittaPy (pip install TittaPy), a C++ wrapper around the Tobii SDK, to pull samples made available from the eye tracker.
- .
- .
- IMPORTANT: This plugin needs PsychoPy as backend AND the dimensions and distance of the monitor have to be set in the PsychoPy monitor config file (for example ~/.psychopy3/testMonitor.json)
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-pipewire
 Version: 0:0.2.3-3~w2d0
@@ -530,6 +341,22 @@ Section: python
 Priority: optional
 Homepage: https://github.com/TaylorSMarks/playsound
 Description: Pure Python, cross platform, single function module with no dependencies for playing sounds.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-pseudorandom
+Version: 0:0.3.2-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 63
+Depends: python3-datamatrix, python3:any
+Filename: ./python3-pseudorandom_0.3.2-1~w2d0_all.deb
+Size: 15700
+MD5sum: 594abddd2625ba35aa77d75f2bfbf56d
+SHA1: 6a042e71311fbbc1907340b4757796e597e3f0db
+SHA256: bb68a08714c80b2d45afd146e55a7329a20a929f9998254b70eaba87832d58b3
+Section: python
+Priority: optional
+Description: This file is part of pseudorandom.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
@@ -567,41 +394,6 @@ Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
 Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
-
-Package: python3-pyqode.python
-Source: pyqode.python
-Version: 3.2.4-1
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 163
-Depends: python3-autopep8, python3-docutils, python3-jedi, python3-pycodestyle, python3-pyflakes, python3-pyqode.core, python3-pyqode.qt, python3:any
-Filename: ./python3-pyqode.python_3.2.4-1_all.deb
-Size: 34612
-MD5sum: 856abe4106c8403d24564044eae2e8e4
-SHA1: a37ae65d56ec75d184a726762054f04d0c72dd21
-SHA256: 7790d15782e5de3d24fb783b25872699195db58e8b850c42749e5d08ccbd1c3e
-Section: python
-Priority: optional
-Homepage: https://github.com/pyQode/pyqode.python
-Description: Adds python support to pyqode.core
- Adds python support to pyqode.core
-
-Package: python3-qtpip
-Version: 0:0.3.0-3~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 86
-Depends: python3-qdatamatrix, python3-yolk3k, python3:any
-Filename: ./python3-qtpip_0.3.0-3~w2d0_all.deb
-Size: 18900
-MD5sum: 32b845ca00d604f7f5a909494887ed4f
-SHA1: 4440bdf6ce1daac269993cbb5671e3e6be4304bf
-SHA256: 4cc796396c1ebb95472c0189edc18c7b32020b68543c87f53306e8850f3b8c70
-Section: python
-Priority: optional
-Homepage: https://github.com/smathot/python-qtpip
-Description: A graphical manager for PyPi plus an OpenSesame extension
- This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-rusocsci
 Version: 0:0.9.2-3~w2d0
@@ -687,56 +479,4 @@ Section: debug
 Priority: optional
 Description: debug symbols for python3-sr-research-pylink
 Build-Ids: 776db8427e20016b41df23ddac7fc5053d1f8ad0 f1be899bb4635d6d6bf45537e8cccd58fe077ef8
-
-Package: python3-tobii-research
-Version: 0:1.10.2-1~w2d1
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4695
-Depends: python3 (<< 3.11), python3 (>= 3.10~), python3:any
-Filename: ./python3-tobii-research_1.10.2-1~w2d1_amd64.deb
-Size: 1483924
-MD5sum: d4608372e89cb742763dd3ee90bc9a27
-SHA1: 4aec5317d5b88b382438c3d3c062805bffb1e2a8
-SHA256: e0285791947ca59ba8d7b58cace0ddee87d5c7a5da766a258014d53d1c8bb979
-Section: python
-Priority: optional
-Homepage: http://developer.tobiipro.com/
-Description: The Tobii Pro SDK is a tool for letting you interact easily with your eye tracker and write your own research applications for collecting and analyzing eye tracking data. Full support for usb and network eye trackers from Tobii.
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-tobii-research-dbgsym
-Source: python3-tobii-research
-Version: 0:1.10.2-1~w2d1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 675
-Depends: python3-tobii-research (= 0:1.10.2-1~w2d1)
-Filename: ./python3-tobii-research-dbgsym_1.10.2-1~w2d1_amd64.deb
-Size: 127068
-MD5sum: 78118946e5d5d7ea9aa6de8155827dab
-SHA1: 3c5d596c9969da33f2d01d596300cd1a0287e150
-SHA256: 91e03fd959d12b8cb2fc66755052e1347fa012411e926ac69f85dc00dc94cbde
-Section: debug
-Priority: optional
-Description: debug symbols for python3-tobii-research
-Build-Ids: 1149ec393e39b27fe1d1e3c34b83f543d0a72385
-
-Package: python3-yolk3k
-Version: 0:0.9-3~w2d0
-Architecture: all
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 86
-Depends: python3 (>= 3.3~), python3:any
-Filename: ./python3-yolk3k_0.9-3~w2d0_all.deb
-Size: 17504
-MD5sum: 67fdbb249bf6553531c865ce200f259b
-SHA1: 78dfb31c366d0947fd8bf93c357ad8375ba206b6
-SHA256: 10269223a8a90339b6889dcc778bab7d69c65f1ae60ded9ab8bfd06ca3addc8d
-Section: python
-Priority: optional
-Homepage: https://github.com/myint/yolk
-Description: Command-line tool for querying PyPI and Python packages installed on your system.
- This package was automatically generated from the upstream wheel by wheel2deb.
 
