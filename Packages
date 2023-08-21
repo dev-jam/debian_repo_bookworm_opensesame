@@ -360,40 +360,39 @@ Description: This file is part of pseudorandom.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
-Source: psychtoolbox
-Version: 3.0.19.0-1
+Version: 0:3.0.19.0-2~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 944
-Depends: python3 (<< 3.12), python3 (>= 3.11~), python3-numpy, python3:any, libasound2 (>= 1.0.16), libc6 (>= 2.34), libportaudio2 (>= 19+svn20101113), libusb-1.0-0 (>= 2:1.0.22), libx11-6 (>= 2:1.2.99.901), libxi6 (>= 2:1.2.99.4)
-Filename: ./python3-psychtoolbox_3.0.19.0-1_amd64.deb
-Size: 202556
-MD5sum: 8d74636dc416c523065965e5edad4486
-SHA1: 80efce1d8a15bf7e5c7af66449605b5a06926057
-SHA256: bcd918b56afce2908158ae8f55126b2cc907e55e04789dbfdadfa75b1cb3f522
+Installed-Size: 4002
+Depends: python3 (<< 3.8), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
+Filename: ./python3-psychtoolbox_3.0.19.0-2~w2d0_amd64.deb
+Size: 1214136
+MD5sum: 933ee9ebe73b008ecadb04d1a3a47bbb
+SHA1: 357a02481119a15e92879a7bfa82c61f9f30cbf3
+SHA256: b7f8205e100bed5a536994adb210aca70568bce8230d80c52cae43a95915c89f
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
 Description: Pieces of Psychtoolbox-3 ported to CPython.
- Pieces of Psychtoolbox-3 ported to CPython.
+ This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox-dbgsym
-Source: psychtoolbox
-Version: 3.0.19.0-1
+Source: python3-psychtoolbox
+Version: 0:3.0.19.0-2~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 806
-Depends: python3-psychtoolbox (= 3.0.19.0-1)
-Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-1_amd64.deb
-Size: 663072
-MD5sum: 2945ace84e8bf1574bdbf3f83debd429
-SHA1: 1d0b4b25f46c57c8e229d72a1ba211c1d10c7da7
-SHA256: f7b35956d5920a43b0779ed17db92a64015de6f871ea4fbf3493e6a981c3f0f4
+Installed-Size: 957
+Depends: python3-psychtoolbox (= 0:3.0.19.0-2~w2d0)
+Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-2~w2d0_amd64.deb
+Size: 781016
+MD5sum: 6d97616816f0f2d96350de4f47276e6f
+SHA1: 5a50869820203ec8f79158772c7f22c6290e9dcb
+SHA256: 9f0aed546323ef9b072a5b1507a90cc11faccf4f7badb94f8e75703781b4f73b
 Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
-Build-Ids: 0952bf2c3915bcd53e0d000abd9aba204ffb9478 77d39609c96c9fbc6f19c2b0e60ad8b1dc108b76 9c1b28b95113c4de5be291a5dda5e664aab5070b bf99ddad8f3d819edb5694a24b1119d97f85897f dc1221b48fa6104c3e792e60563a9e6ef29f491f
+Build-Ids: 4153dd6b7d2c470c49d1a2fe17812bfbc4de2a75 54aa79571faf9c3bb399c1351ef5d028a35fc0cf 78deecee272127c414366c3bcead994c3f03ca8b 821aa05c741e8fa1db3ce5ecca9ba361d84c601c b9ac71be4a18bb16498eb43bb8449e3c4cdecff2 c40589d27c38676328ddfcc4a7916182b308647e
 
 Package: python3-rusocsci
 Version: 0:0.9.2-3~w2d0
