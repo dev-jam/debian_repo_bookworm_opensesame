@@ -360,16 +360,16 @@ Description: This file is part of pseudorandom.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
-Version: 0:3.0.19.0-2~w2d0
+Version: 0:3.0.19.0-3~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 4002
-Depends: python3 (<< 3.8), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
-Filename: ./python3-psychtoolbox_3.0.19.0-2~w2d0_amd64.deb
-Size: 1214136
-MD5sum: 933ee9ebe73b008ecadb04d1a3a47bbb
-SHA1: 357a02481119a15e92879a7bfa82c61f9f30cbf3
-SHA256: b7f8205e100bed5a536994adb210aca70568bce8230d80c52cae43a95915c89f
+Depends: python3 (<< 3.12), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
+Filename: ./python3-psychtoolbox_3.0.19.0-3~w2d0_amd64.deb
+Size: 1214140
+MD5sum: cbf3586530970677c7545dee980fa08f
+SHA1: 5018f66cf5e2363d5cc45377161359bd0dd45665
+SHA256: e59dbb9a6b30126a9ecb212f5e8d2ed97d0662b07ee7499b3907b9b15ecb84da
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
@@ -378,17 +378,17 @@ Description: Pieces of Psychtoolbox-3 ported to CPython.
 
 Package: python3-psychtoolbox-dbgsym
 Source: python3-psychtoolbox
-Version: 0:3.0.19.0-2~w2d0
+Version: 0:3.0.19.0-3~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 957
-Depends: python3-psychtoolbox (= 0:3.0.19.0-2~w2d0)
-Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-2~w2d0_amd64.deb
+Depends: python3-psychtoolbox (= 0:3.0.19.0-3~w2d0)
+Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-3~w2d0_amd64.deb
 Size: 781016
-MD5sum: 6d97616816f0f2d96350de4f47276e6f
-SHA1: 5a50869820203ec8f79158772c7f22c6290e9dcb
-SHA256: 9f0aed546323ef9b072a5b1507a90cc11faccf4f7badb94f8e75703781b4f73b
+MD5sum: 49e4e8a39470815d39bae8583e96c035
+SHA1: abdb44cc4bf64be8a2134ae489645ad9aa97ddb0
+SHA256: 7f513fbe5474edf50d44622b2df11e87ad7b3735f8d34c9c9e40e6d7ed3862ec
 Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
