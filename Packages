@@ -226,16 +226,16 @@ Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame ex
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-media-player-mpy
-Version: 0:0.2.2-1~w2d0
+Version: 0:0.2.2-2~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 329
 Depends: python3 (>= 3.4~), python3-mediadecoder, python3:any
-Filename: ./python3-opensesame-plugin-media-player-mpy_0.2.2-1~w2d0_all.deb
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.2.2-2~w2d0_all.deb
 Size: 57728
-MD5sum: 5438de99839211409dd14783a8475461
-SHA1: c9316c8c2a6d4fa8639795cac04198438408b9be
-SHA256: df80cf3156316dd610aa18ab3c28d3c5fdd9648a44269686e0055ab6879cab0b
+MD5sum: d8dfcefb3ff2ccb62c12e2eecfe7052a
+SHA1: a000f215ca05f6db11df9a00eff856b4e926a5ae
+SHA256: 94dee763d740368a3885aa299d8035fb0fbdb04c8a7db5af0396832640981642
 Section: python
 Priority: optional
 Homepage: https://osdoc.cogsci.nl
@@ -260,16 +260,16 @@ Description: An OpenSesame Plug-in for sending stimulus synchronization triggers
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-psychopy
-Version: 0:0.8.0-1~w2d0
+Version: 0:0.8.0-2~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 411
 Depends: python3 (>= 3.7~), python3-opensesame (>> 3.99.99), python3:any
-Filename: ./python3-opensesame-plugin-psychopy_0.8.0-1~w2d0_all.deb
-Size: 42468
-MD5sum: 389565e5cff9b65d915eab0678071fa0
-SHA1: 50e9b4af387fd3cc7a1431c1a6fff4d14a27b3a4
-SHA256: ffa1640851c0d77f9360e7e80c77cee6628fb58a80099a17e6a73544e29db5c6
+Filename: ./python3-opensesame-plugin-psychopy_0.8.0-2~w2d0_all.deb
+Size: 42472
+MD5sum: 671d188e2305c35602507d1fd8bc4bb7
+SHA1: 360d6f0aefde8a419c960b1b55df0771f35973a4
+SHA256: 62270906b51055c56cc900ce713910d80a2df20bad21596dd81772e501b8d022
 Section: python
 Priority: optional
 Homepage: https://osdoc.cogsci.nl/
