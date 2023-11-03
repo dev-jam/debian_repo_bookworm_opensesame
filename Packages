@@ -175,16 +175,16 @@ Description: Video editing with Python
  effects.
 
 Package: python3-opensesame-extension-osweb
-Version: 0:2.0.4.1-1~w2d0
+Version: 0:2.1.0.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 8805
+Installed-Size: 9004
 Depends: python3 (>= 3.4~), python3-bs4, python3-esprima, python3-javascripthon, python3-js2py, python3:any
-Filename: ./python3-opensesame-extension-osweb_2.0.4.1-1~w2d0_all.deb
-Size: 1023008
-MD5sum: 1c31a8da191ab71f720193be0dba0519
-SHA1: 1c7a49f504115f9a18b1d27780c1b269e411c691
-SHA256: 5750fc676369ac9a10992969dc757b0460c96b38c49bbf806325f7888d593031
+Filename: ./python3-opensesame-extension-osweb_2.1.0.0-1~w2d0_all.deb
+Size: 1043408
+MD5sum: 96662fa604e7492f273dd266b067bcd5
+SHA1: 7a7b736c9f19afaaa16809a8eb9029d88221bece
+SHA256: e7a195729be0c7fd985bcc0fd6b41101f41f684048463bb315b41c529b5a2679
 Section: python
 Priority: optional
 Homepage: https://osdoc.cogsci.nl
