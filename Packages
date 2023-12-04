@@ -192,16 +192,16 @@ Description: Extensions and plugins for OpenSesame to run experiments in a brows
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Version: 0:10.2.0-1~w2d0
+Version: 0:10.3.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 416
-Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy (>= 1.24.2), python3-pyaudio (>= 0.2.13), python3-pygame (>= 2.1.2), python3-sounddevice (>= 0.4.6), python3:any
-Filename: ./python3-opensesame-plugin-audio-low-latency_10.2.0-1~w2d0_all.deb
-Size: 86600
-MD5sum: c1fb890ce6ebb19cae4ccfdd27ab98f8
-SHA1: eaa1c065cb477da1bf5d5e1bae0a22ec559d4de4
-SHA256: a043e483404b1310aab03209b9e17fc22676ed3f46123230fb10bba3fdb10e79
+Installed-Size: 418
+Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy (>= 1.24.2), python3-pyaudio (>= 0.2.11), python3-pygame (>= 2.1.2), python3-sounddevice (>= 0.4.6), python3:any
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.3.0-1~w2d0_all.deb
+Size: 86844
+MD5sum: 1b86334ab987e29970b34a2f562381f2
+SHA1: 2169f6a9eab183de42a47120af2b1932c9e82691
+SHA256: 5f744189188e3f3d07c7d3783aa3f4a43b7812efa28cbca6853f540612e58bd5
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
@@ -277,16 +277,16 @@ Description: PsychoPy plugins for OpenSesame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Version: 0:3.0.1-1~w2d0
+Version: 0:3.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 133
 Depends: python3 (>= 3.4~), python3-rusocsci (>= 0.9.2), python3:any
-Filename: ./python3-opensesame-plugin-radboudbox_3.0.1-1~w2d0_all.deb
-Size: 35160
-MD5sum: b99af73117d8e7ec04b6ca5c8e7d8152
-SHA1: 25db8b88b7ce1f26d2450fbf6db92b3009a1448f
-SHA256: 3331347f103fe9a9aa0b8f500f7ee0737888dcdf7e8153a9885fed4d81172a63
+Filename: ./python3-opensesame-plugin-radboudbox_3.1.0-1~w2d0_all.deb
+Size: 35240
+MD5sum: b1116bd41e61668c0ba96939bf1a0d82
+SHA1: f683783828db41d5e4293c0a60d5a48d5db88696
+SHA256: 7ccdfadd40a574adf3046c7522b223de24e59c08a738af6c98a2d7906c54157e
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
@@ -294,16 +294,16 @@ Description: An OpenSesame Plug-in for collecting button responses, audio detect
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-titta-eyetracking
-Version: 0:1.0.4-1~w2d0
+Version: 0:1.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 103
+Installed-Size: 105
 Depends: python3 (>= 3.8~), python3-titta (>= 2.0.1), python3-tittapy (>= 1.0.0), python3:any
-Filename: ./python3-opensesame-plugin-titta-eyetracking_1.0.4-1~w2d0_all.deb
-Size: 18644
-MD5sum: 91cbc922eab57bd0ede13917167abbc2
-SHA1: cdc975f8de4b36a1891f9f0315f3b722af73860d
-SHA256: 3f61ae4d7b7f5a2b418c938df59753e3a41d188d9947e6cdf9eca93df7c3dbb1
+Filename: ./python3-opensesame-plugin-titta-eyetracking_1.1.0-1~w2d0_all.deb
+Size: 18812
+MD5sum: 569242ac8c38ad050b43817bb386ae53
+SHA1: b5015ddfe9d0540a316f2a7f8311326aa99a7349
+SHA256: 0b5078e696730c3085921374572bf6b9d9a85e1d48ad7a90e2deffdb7a0fca02
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
