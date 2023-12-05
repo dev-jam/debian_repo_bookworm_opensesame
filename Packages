@@ -243,16 +243,16 @@ Description: A video playback plugin for OpenSesame, based on MoviePy
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
-Version: 0:4.0.1-1~w2d0
+Version: 0:4.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 279
 Depends: python3 (>= 3.4~), python3-parallel (>= 0.2.2), python3:any
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.0.1-1~w2d0_all.deb
-Size: 84748
-MD5sum: c608004d9af86b7ee6373fdc034853ce
-SHA1: 7012c196262378c463f37d54d3896f9f3399cdb8
-SHA256: 2958ed03c061ff2a749a825f02233464708bbefd4caf572ef9b9be0bb1f13e54
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.1.0-1~w2d0_all.deb
+Size: 84712
+MD5sum: 5f85bc9d87e39d410e8fa9a4b00ae371
+SHA1: 42755409e307c1522aa1e411acdd2a51c5778e36
+SHA256: 663bad9f60c30c954a08f8e72eef470967c4147c84f331b18f60a44d5022cf50
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
