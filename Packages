@@ -429,16 +429,16 @@ Description: Play and Record Sound with Python
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-spellchecker
-Version: 0:0.7.2-3~w2d0
+Version: 0:0.7.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 3394
+Installed-Size: 6442
 Depends: python3 (>= 3.6~), python3:any
-Filename: ./python3-spellchecker_0.7.2-3~w2d0_all.deb
-Size: 3427712
-MD5sum: 847476f5bd1c1a90d3cc27d57f95224d
-SHA1: 82efe3ce2f43449aeb45af7b9e4227954796e993
-SHA256: c906fce888a9d36ee2cc8fbf4ee085fa41a876b729dbc6beeadca1ad21a9ab93
+Filename: ./python3-spellchecker_0.7.3-1~w2d0_all.deb
+Size: 6550060
+MD5sum: 86a654104ebb725f633a04074dfcc50e
+SHA1: 31fcad20fde002c36a4d2dbd844a77c4799d16c6
+SHA256: e69600f25d2dace4989c8bf49dfd96e76ca85aee578a61d3a979fe70371d2673
 Section: python
 Priority: optional
 Description: Pure python spell checker based on work by Peter Norvig
