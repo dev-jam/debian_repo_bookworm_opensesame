@@ -192,16 +192,16 @@ Description: Extensions and plugins for OpenSesame to run experiments in a brows
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Version: 0:10.3.0-1~w2d0
+Version: 0:10.3.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 418
-Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy (>= 1.24.2), python3-pyaudio (>= 0.2.11), python3-pygame (>= 2.1.2), python3-sounddevice (>= 0.4.6), python3:any
-Filename: ./python3-opensesame-plugin-audio-low-latency_10.3.0-1~w2d0_all.deb
-Size: 86844
-MD5sum: 1b86334ab987e29970b34a2f562381f2
-SHA1: 2169f6a9eab183de42a47120af2b1932c9e82691
-SHA256: 5f744189188e3f3d07c7d3783aa3f4a43b7812efa28cbca6853f540612e58bd5
+Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy, python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.3.1-1~w2d0_all.deb
+Size: 86788
+MD5sum: 4aef87c689bfa280dd24a366b024c54e
+SHA1: aa1385628557425d02bf155171c15fbfb8bd6457
+SHA256: e2ac13eb5a218f541b8f8797aaf1c5a71adb19c2bc7cf2993171ab7bc11db305
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
@@ -243,16 +243,16 @@ Description: A video playback plugin for OpenSesame, based on MoviePy
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
-Version: 0:4.1.0-1~w2d0
+Version: 0:4.1.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 279
 Depends: python3 (>= 3.4~), python3-parallel (>= 0.2.2), python3:any
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.1.0-1~w2d0_all.deb
-Size: 84712
-MD5sum: 5f85bc9d87e39d410e8fa9a4b00ae371
-SHA1: 42755409e307c1522aa1e411acdd2a51c5778e36
-SHA256: 663bad9f60c30c954a08f8e72eef470967c4147c84f331b18f60a44d5022cf50
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.1.1-1~w2d0_all.deb
+Size: 84776
+MD5sum: b91d0370a0cb83ef89cfc40896802816
+SHA1: 9a1a6ad1a2a1b5de049e5874eb14a9b589f3d5d1
+SHA256: 1771277127db97fc3de5ec612a4ee90f3a3ffe25a49b33ab9e22b31f75633d1e
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
@@ -277,16 +277,16 @@ Description: PsychoPy plugins for OpenSesame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Version: 0:3.1.0-1~w2d0
+Version: 0:3.1.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 133
-Depends: python3 (>= 3.4~), python3-rusocsci (>= 0.9.2), python3:any
-Filename: ./python3-opensesame-plugin-radboudbox_3.1.0-1~w2d0_all.deb
-Size: 35240
-MD5sum: b1116bd41e61668c0ba96939bf1a0d82
-SHA1: f683783828db41d5e4293c0a60d5a48d5db88696
-SHA256: 7ccdfadd40a574adf3046c7522b223de24e59c08a738af6c98a2d7906c54157e
+Depends: python3 (>= 3.4~), python3-rusocsci, python3:any
+Filename: ./python3-opensesame-plugin-radboudbox_3.1.1-1~w2d0_all.deb
+Size: 35232
+MD5sum: 80e19c3b708e5b5dae77ee2c3c5e8124
+SHA1: 763de8508b76e46e18573c1a40168fce9145fa65
+SHA256: 05cb52950cae1c582f77924d9d2854b74c78c64df5b499e93e624a3396d28995
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
