@@ -175,16 +175,16 @@ Description: Video editing with Python
  effects.
 
 Package: python3-opensesame-extension-osweb
-Version: 0:2.1.0.1-1~w2d0
+Version: 0:2.1.0.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 9004
 Depends: python3 (>= 3.4~), python3-bs4, python3-esprima, python3-javascripthon, python3-js2py, python3:any
-Filename: ./python3-opensesame-extension-osweb_2.1.0.1-1~w2d0_all.deb
-Size: 1043748
-MD5sum: 5b2c0486d609347f45883ccbc7b62d33
-SHA1: 029f9f7b44c18b53e441ed9689e25e2a987e4864
-SHA256: 56753cd38e1ef089da705bf43c2ca1242a28a6791933184f32ab3cbf93030bbb
+Filename: ./python3-opensesame-extension-osweb_2.1.0.2-1~w2d0_all.deb
+Size: 1039456
+MD5sum: 7f1435f0ef331bf6c94e3f8986a29e24
+SHA1: 6a598d1876a7500a7006dfc7628a5b2f594352b4
+SHA256: 3dbc43c3d01c253aed45ec4ac9da1ff5eef6610cc7887639571e91e0a0e997b4
 Section: python
 Priority: optional
 Homepage: https://osdoc.cogsci.nl
@@ -429,16 +429,16 @@ Description: Play and Record Sound with Python
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-spellchecker
-Version: 0:0.7.3-1~w2d0
+Version: 0:0.8.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 6442
-Depends: python3 (>= 3.6~), python3:any
-Filename: ./python3-spellchecker_0.7.3-1~w2d0_all.deb
-Size: 6550060
-MD5sum: 86a654104ebb725f633a04074dfcc50e
-SHA1: 31fcad20fde002c36a4d2dbd844a77c4799d16c6
-SHA256: e69600f25d2dace4989c8bf49dfd96e76ca85aee578a61d3a979fe70371d2673
+Installed-Size: 6774
+Depends: python3 (>= 3.7~), python3:any
+Filename: ./python3-spellchecker_0.8.1-1~w2d0_all.deb
+Size: 6742000
+MD5sum: 5f1be224308dd6430291ebcad78d7748
+SHA1: a63e8caeb5a4627236d817feabc8ffecc0ed7794
+SHA256: 9c62fa6bcea61b45dadc3046942ce586b3299966e8c40ebfb0e48711da2f3d96
 Section: python
 Priority: optional
 Description: Pure python spell checker based on work by Peter Norvig
