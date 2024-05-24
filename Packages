@@ -277,16 +277,16 @@ Description: PsychoPy plugins for OpenSesame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Version: 0:4.0.0-1~w2d0
+Version: 0:4.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 135
+Installed-Size: 136
 Depends: python3 (>= 3.4~), python3-rusocsci, python3:any
-Filename: ./python3-opensesame-plugin-radboudbox_4.0.0-1~w2d0_all.deb
-Size: 35756
-MD5sum: aee2853e05a2aefe743338b373a5ee7c
-SHA1: dd39e4c3bf3577987a88de6fb4dbbb8f469a7139
-SHA256: b6be814cb1d726671cf850f6fa020e20584a90fe73ca9926201422c048e3926c
+Filename: ./python3-opensesame-plugin-radboudbox_4.1.0-1~w2d0_all.deb
+Size: 35836
+MD5sum: 8d3f3e8c9710908a12067d459644be92
+SHA1: 69ffc5b3bdb1c994052efeb30e3dfcdcf5005e69
+SHA256: 536eaa722ea428dd4f02d75e44f1a317012d656ed945b23e3863303ab790ce37
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
