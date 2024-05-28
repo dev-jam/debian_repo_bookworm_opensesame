@@ -412,16 +412,16 @@ Description: Support package for Radboud University Nijmegen, Faculty of Social 
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sounddevice
-Version: 0:0.4.6-3~w2d0
+Version: 0:0.4.7-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 143
+Installed-Size: 144
 Depends: python3-cffi (>= 1.0), python3:any
-Filename: ./python3-sounddevice_0.4.6-3~w2d0_all.deb
-Size: 28532
-MD5sum: fcfb55c7d811d24967d72ee51df4a116
-SHA1: 073f0df619ddb3c9dc33f474576878e8f8d6fe12
-SHA256: e60383683ac3c628e07c40905253ec92653a6d460c90304b8ced9866acd88ce9
+Filename: ./python3-sounddevice_0.4.7-1~w2d0_all.deb
+Size: 28832
+MD5sum: c34dd9e20a7411d816f38d25ee9506fe
+SHA1: 47b0a0d54c59ded7009176c13a9999dc30a3fad8
+SHA256: da780832f735e91c601b842ef09685c9f42600df5ecfca270d957d6a487e751f
 Section: python
 Priority: optional
 Homepage: http://python-sounddevice.readthedocs.io/
