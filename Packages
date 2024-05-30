@@ -192,16 +192,16 @@ Description: Extensions and plugins for OpenSesame to run experiments in a brows
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Version: 0:10.6.0-1~w2d0
+Version: 0:10.6.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 423
 Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy, python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
-Filename: ./python3-opensesame-plugin-audio-low-latency_10.6.0-1~w2d0_all.deb
-Size: 87096
-MD5sum: 8799cdc24dfa4db6ae3e09e0a03df3de
-SHA1: fc4070263faa8850e6ab9a588aac33ec4fb3cc86
-SHA256: d83c766ce09019338d80f1b23262930074b381d50bace4a81cac0a774e159d16
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.6.1-1~w2d0_all.deb
+Size: 87056
+MD5sum: 9df15e73c7e855a87cfdb536075bf987
+SHA1: 26b11576299bb060941c91596fd87ab041eb1639
+SHA256: 6eb09f7da3a699017cef2ef3d87323acb7d58a87c389bd76847452de3a0646a4
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
