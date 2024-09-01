@@ -294,16 +294,16 @@ Description: An OpenSesame Plug-in for collecting button responses, audio detect
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-titta-eyetracking
-Version: 0:2.2.0-1~w2d0
+Version: 0:2.3.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 114
+Installed-Size: 119
 Depends: python3 (>= 3.8~), python3-pandas, python3-titta (>= 2.0.1), python3-tittapy (>= 1.0.0), python3:any
-Filename: ./python3-opensesame-plugin-titta-eyetracking_2.2.0-1~w2d0_all.deb
-Size: 20468
-MD5sum: 2b08d312afbbb83a0736d44243d314ef
-SHA1: f46942aba7687e8acb54d8137944c88cf4e8261b
-SHA256: 5edef03b191242af63008aa6f34cac973a5edcb1061db86c68cba7dcda75c212
+Filename: ./python3-opensesame-plugin-titta-eyetracking_2.3.0-1~w2d0_all.deb
+Size: 21196
+MD5sum: 35e91e80a72f99283714e6ec7ee5581d
+SHA1: 5c265e6a6b700f17dcc95cff36b9ca1b515d0d45
+SHA256: 707300b6cf57b82a60f8a7f495ee9929343b299c91752f1af09b711c9bdb76bb
 Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
