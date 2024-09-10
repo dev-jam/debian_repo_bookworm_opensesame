@@ -360,16 +360,16 @@ Description: This file is part of pseudorandom.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-psychtoolbox
-Version: 0:3.0.19.0-3~w2d0
+Version: 0:3.0.19.14-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4002
-Depends: python3 (<< 3.12), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
-Filename: ./python3-psychtoolbox_3.0.19.0-3~w2d0_amd64.deb
-Size: 1214140
-MD5sum: cbf3586530970677c7545dee980fa08f
-SHA1: 5018f66cf5e2363d5cc45377161359bd0dd45665
-SHA256: e59dbb9a6b30126a9ecb212f5e8d2ed97d0662b07ee7499b3907b9b15ecb84da
+Installed-Size: 4005
+Depends: python3 (<< 3.8), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
+Filename: ./python3-psychtoolbox_3.0.19.14-1~w2d0_amd64.deb
+Size: 1216716
+MD5sum: 39ef0f54d66c696db4a17285ba2e6e5b
+SHA1: 374548c70564991056056c0c726c6c6cc2721849
+SHA256: 8c1ecda07d06ae122e57f508fae9f575904384419cdf573bac37c578d29f899c
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
@@ -378,21 +378,21 @@ Description: Pieces of Psychtoolbox-3 ported to CPython.
 
 Package: python3-psychtoolbox-dbgsym
 Source: python3-psychtoolbox
-Version: 0:3.0.19.0-3~w2d0
+Version: 0:3.0.19.14-1~w2d0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 957
-Depends: python3-psychtoolbox (= 0:3.0.19.0-3~w2d0)
-Filename: ./python3-psychtoolbox-dbgsym_3.0.19.0-3~w2d0_amd64.deb
-Size: 781016
-MD5sum: 49e4e8a39470815d39bae8583e96c035
-SHA1: abdb44cc4bf64be8a2134ae489645ad9aa97ddb0
-SHA256: 7f513fbe5474edf50d44622b2df11e87ad7b3735f8d34c9c9e40e6d7ed3862ec
+Installed-Size: 970
+Depends: python3-psychtoolbox (= 0:3.0.19.14-1~w2d0)
+Filename: ./python3-psychtoolbox-dbgsym_3.0.19.14-1~w2d0_amd64.deb
+Size: 793572
+MD5sum: 90ccd0f1f1c5e7f088e1b47c2e28a54c
+SHA1: b8edac8ff67ad01950f6f3b27115ae947aa54931
+SHA256: 609e4cac3f8a5fce3ea3fb99c685997baa7685ee8e50730d5c80997d7af98f75
 Section: debug
 Priority: optional
 Description: debug symbols for python3-psychtoolbox
-Build-Ids: 4153dd6b7d2c470c49d1a2fe17812bfbc4de2a75 54aa79571faf9c3bb399c1351ef5d028a35fc0cf 78deecee272127c414366c3bcead994c3f03ca8b 821aa05c741e8fa1db3ce5ecca9ba361d84c601c b9ac71be4a18bb16498eb43bb8449e3c4cdecff2 c40589d27c38676328ddfcc4a7916182b308647e
+Build-Ids: 34f82492735a11f9de1bbe3d0cab85f156db2304 437a7e093f6409206814167a0059f01e681f3b1e 850430792c3c943026457e1a362e2fc9891e989f b9ac71be4a18bb16498eb43bb8449e3c4cdecff2 c7245b8833870e618cab8c266ee9432e0f16e98c da816a42ee45aee1ad4afdcf8acf49b326ce781a
 
 Package: python3-rusocsci
 Version: 0:0.9.2-3~w2d0
