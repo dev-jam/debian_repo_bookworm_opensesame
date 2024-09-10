@@ -363,13 +363,13 @@ Package: python3-psychtoolbox
 Version: 0:3.0.19.14-1~w2d0
 Architecture: amd64
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4005
-Depends: python3 (<< 3.8), python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
+Installed-Size: 6454
+Depends: python3 (>= 3.7~), python3-numpy (>= 1.13.3), python3:any
 Filename: ./python3-psychtoolbox_3.0.19.14-1~w2d0_amd64.deb
-Size: 1216716
-MD5sum: 39ef0f54d66c696db4a17285ba2e6e5b
-SHA1: 374548c70564991056056c0c726c6c6cc2721849
-SHA256: 8c1ecda07d06ae122e57f508fae9f575904384419cdf573bac37c578d29f899c
+Size: 1646400
+MD5sum: 0948aed15f81b0c5ec4fcf9d9a10d748
+SHA1: 116189a82a637ca85d83a463ffc0526f0ba2645e
+SHA256: 4ba5522793cfc9f118d49096dd899d350a1a947bb94a2cf16e3ee438cd009d1a
 Section: python
 Priority: optional
 Homepage: http://psychtoolbox.org
