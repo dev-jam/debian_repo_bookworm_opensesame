@@ -191,6 +191,22 @@ Homepage: https://osdoc.cogsci.nl
 Description: Extensions and plugins for OpenSesame to run experiments in a browser using OSWeb
  This package was automatically generated from the upstream wheel by wheel2deb.
 
+Package: python3-opensesame-eyelink-coregraphics
+Version: 0:2.1.1197.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 139
+Depends: python3 (>= 3.9~), python3-opensesame (>= 4.0.0~a0), python3-sr-research-pylink (>= 2.1.0), python3:any
+Filename: ./python3-opensesame-eyelink-coregraphics_2.1.1197.0-1~w2d0_all.deb
+Size: 43036
+MD5sum: 6214d36438788f562fe9a541fa09a801
+SHA1: 92003aa8576223ec51af9ed9b6c3675aa014e90c
+SHA256: 917fd7b71e029cdbcf097dc649f3006fd0fc48a4e0fcb3a369bfa02c745b1193
+Section: python
+Priority: optional
+Description: Implementation of the EyeLink core graphics set of handlers for OpenSesame 4.0
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
 Package: python3-opensesame-plugin-audio-low-latency
 Version: 0:10.6.2-1~w2d0
 Architecture: all
@@ -223,6 +239,22 @@ Section: python
 Priority: optional
 Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
 Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame experiments.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-opensesame-plugin-eyelink
+Version: 0:2.1.1197.0-1~w2d0
+Architecture: all
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 237
+Depends: python3 (>= 3.9~), python3-opensesame (>= 4.0.0~a0), python3-opensesame-eyelink-coregraphics (>= 2.1.1197), python3-sr-research-pylink (>= 2.1.0), python3:any
+Filename: ./python3-opensesame-plugin-eyelink_2.1.1197.0-1~w2d0_all.deb
+Size: 31448
+MD5sum: ca318a655ce1e50e159dab7cbcb71db5
+SHA1: ad6241b2b0265c8feb7c55deb819ec8c4890dc9c
+SHA256: 15fdb55acd36fd047edbad5ee9419fcb1c847dce0d1546655431317bbbb80615
+Section: python
+Priority: optional
+Description: Extension package for OpenSesame which adds support for EyeLink devices by SR Research.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-media-player-mpy
