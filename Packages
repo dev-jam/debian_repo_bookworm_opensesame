@@ -132,16 +132,16 @@ Description: Video editing with Python
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-extension-osweb
-Version: 1:2.2.6.0-1~w2d0
+Version: 1:2.2.7-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 9074
+Installed-Size: 9080
 Depends: python3:any
-Filename: ./python3-opensesame-extension-osweb_2.2.6.0-1~w2d0_all.deb
-Size: 1056952
-MD5sum: b6ecde9e2896dc39b9854836b0fcb7b5
-SHA1: daefcbb3a1bc086803c0a453af3314a80517544e
-SHA256: ae38aec6269bedea14526a2359988eda4fd16fa8aa88e7fea880ace1808f4779
+Filename: ./python3-opensesame-extension-osweb_2.2.7-1~w2d0_all.deb
+Size: 1056612
+MD5sum: e8e494967b3be2cbd9d9d16365e60baa
+SHA1: 7a3e1cd4798d2a290a567fa6e1a1e6d65adbfc22
+SHA256: ebbcb912f53e11062fa6d75c0b624419488aaa3ee7c784a1b8bca7b13bd0dbb0
 Section: python
 Priority: optional
 Description: None
