@@ -99,16 +99,16 @@ Description: Fast javascript parser (based on esprima.js)
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-mediadecoder
-Version: 0:0.2.0-1~w2d0
+Version: 0:0.2.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 67
+Installed-Size: 72
 Depends: python3:any
-Filename: ./python3-mediadecoder_0.2.0-1~w2d0_all.deb
-Size: 12664
-MD5sum: 62a59783cf6d21856dd4ecbe6bf166ef
-SHA1: 100cc9bd36590e43317c63b38f89ebe9fa2e863f
-SHA256: 6aa81408624fcfe769b3c9d48c5019fd8217eb27e4a08b74985165de7670f67b
+Filename: ./python3-mediadecoder_0.2.1-1~w2d0_all.deb
+Size: 13596
+MD5sum: 748ed4ab8c6e8e33465cc454b3481a3a
+SHA1: 88999542b0d94cac0ab646912467f29b46c0e856
+SHA256: 5af3026234ec1ab8fcca98e61d836df677157674fc67f250e57792210a89a216
 Section: python
 Priority: optional
 Description: None
@@ -213,20 +213,19 @@ Description: Extension package for OpenSesame which adds support for EyeLink dev
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-media-player-mpy
-Version: 0:0.2.2-2~w2d0
+Version: 0:0.2.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 329
-Depends: python3 (>= 3.4~), python3-mediadecoder, python3:any
-Filename: ./python3-opensesame-plugin-media-player-mpy_0.2.2-2~w2d0_all.deb
-Size: 57728
-MD5sum: d8dfcefb3ff2ccb62c12e2eecfe7052a
-SHA1: a000f215ca05f6db11df9a00eff856b4e926a5ae
-SHA256: 94dee763d740368a3885aa299d8035fb0fbdb04c8a7db5af0396832640981642
+Depends: python3:any
+Filename: ./python3-opensesame-plugin-media-player-mpy_0.2.3-1~w2d0_all.deb
+Size: 57636
+MD5sum: 31c5dfaedb3483967f7e5b12d6a58bb9
+SHA1: 4f2d8aeb1a24f59b3f3c278ab863483d36ca950a
+SHA256: 7491cac3931987cc51bdbdf4f57c3a48a7137371799c13e1826395a4086b3426
 Section: python
 Priority: optional
-Homepage: https://osdoc.cogsci.nl
-Description: A video playback plugin for OpenSesame, based on MoviePy
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
