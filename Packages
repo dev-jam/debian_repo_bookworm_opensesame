@@ -115,19 +115,19 @@ Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-moviepy
-Version: 1:2.1.2-1~w2d0
+Version: 0:2.2.1-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 417
-Depends: python3 (>= 3.9~), python3-decorator (<< 6.0), python3-decorator (>= 4.0.2), python3-dotenv (>= 0.10), python3-imageio (<< 3.0), python3-imageio (>= 2.5), python3-imageio-ffmpeg (>= 0.2.0), python3-numpy (>= 1.25.0), python3-pil (<< 11.0), python3-pil (>= 9.2.0), python3-proglog (<= 1.0.0-+), python3:any
-Filename: ./python3-moviepy_2.1.2-1~w2d0_all.deb
-Size: 82508
-MD5sum: 230842e35c90877c4af819b691db07ed
-SHA1: c7586eba891f77830fd50d488cf4418331778beb
-SHA256: c33091c6d7e3f07e7451ab2e5046b8444711b917ebe00f4d2569b84ee6715fd9
+Installed-Size: 428
+Depends: python3:any
+Filename: ./python3-moviepy_2.2.1-1~w2d0_all.deb
+Size: 85008
+MD5sum: 2b00b8d89c4dc1749a140d683de9ae4d
+SHA1: 5145d887d678a34c1bbbf474fd525e1c1780a10c
+SHA256: 49dfd7257a500f992c6eaac069668156469d9f0a924edda9b22b0572ebd65cae
 Section: python
 Priority: optional
-Description: Video editing with Python
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-extension-osweb
@@ -397,36 +397,35 @@ Description: Support package for Radboud University Nijmegen, Faculty of Social 
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sounddevice
-Version: 0:0.5.1-1~w2d0
+Version: 0:0.5.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 145
-Depends: python3-cffi (>= 1.0), python3:any
-Filename: ./python3-sounddevice_0.5.1-1~w2d0_all.deb
-Size: 28992
-MD5sum: c9198e48689b3cf176c6e5fc8f948764
-SHA1: 16c6a4162491c2f2ac17cf9eb3d64955ae6e8d24
-SHA256: cb6e0bea38fb9dbd8ca01c4b194c2305f86180279550307583c3638474f3bd95
+Installed-Size: 146
+Depends: python3:any
+Filename: ./python3-sounddevice_0.5.2-1~w2d0_all.deb
+Size: 29148
+MD5sum: eb83c21f58ce8f2b0af928eea5aedf0e
+SHA1: 29d1b50688459923a2f86735c5c73a81dff6a4fb
+SHA256: e3e23dff1357849f25db095a0cccede8733a19c55ab9994c9ac5d86e5b4aba0f
 Section: python
 Priority: optional
-Homepage: http://python-sounddevice.readthedocs.io/
-Description: Play and Record Sound with Python
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-spellchecker
-Version: 0:0.8.2-1~w2d0
+Version: 0:0.8.3-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 7119
-Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-spellchecker_0.8.2-1~w2d0_all.deb
-Size: 7125576
-MD5sum: 73f5a3fb16a1524130e4bb8f4aeafab2
-SHA1: 93c9edce9455580d754209de520bc731fa4fc16a
-SHA256: e277aded928d492bbf3e6f23262fe2901ca7323ad4f0d094cba98eba7995dfd4
+Installed-Size: 7207
+Depends: python3:any
+Filename: ./python3-spellchecker_0.8.3-1~w2d0_all.deb
+Size: 7215416
+MD5sum: af18498c7874e85ba0369227ab2703aa
+SHA1: aa3e4363452473d6cd25d888c18a378eb188675d
+SHA256: b2e9808c896094148d5a9bb727608a053d9ffd38264baf698e904c3befb289a9
 Section: python
 Priority: optional
-Description: Pure python spell checker based on work by Peter Norvig
+Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-sr-research-pylink
