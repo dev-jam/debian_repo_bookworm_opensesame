@@ -99,16 +99,16 @@ Description: Fast javascript parser (based on esprima.js)
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-mediadecoder
-Version: 0:0.2.1-1~w2d0
+Version: 0:0.2.2-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 72
+Installed-Size: 74
 Depends: python3:any
-Filename: ./python3-mediadecoder_0.2.1-1~w2d0_all.deb
-Size: 13596
-MD5sum: 748ed4ab8c6e8e33465cc454b3481a3a
-SHA1: 88999542b0d94cac0ab646912467f29b46c0e856
-SHA256: 5af3026234ec1ab8fcca98e61d836df677157674fc67f250e57792210a89a216
+Filename: ./python3-mediadecoder_0.2.2-1~w2d0_all.deb
+Size: 13876
+MD5sum: c5f3fee11f50146a4b6f74bc80f08e8d
+SHA1: 84ce0a4d0e59e8aaf120473c6dc6279d8034a50f
+SHA256: 8286a9117d0629d953c80e9699e305e058dd3d1e1b980c8230340e7378357c78
 Section: python
 Priority: optional
 Description: None
