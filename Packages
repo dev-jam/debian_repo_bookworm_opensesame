@@ -163,36 +163,34 @@ Description: Implementation of the EyeLink core graphics set of handlers for Ope
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-audio-low-latency
-Version: 0:10.6.2-1~w2d0
+Version: 0:10.7.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 423
-Depends: python3 (>= 3.4~), python3-alsaaudio (>= 0.8.4), python3-numpy, python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
-Filename: ./python3-opensesame-plugin-audio-low-latency_10.6.2-1~w2d0_all.deb
-Size: 87104
-MD5sum: 64e039b87ca045095befca2bc8093781
-SHA1: ad7b6437246c6d1677c745e7e8650bfca04440a3
-SHA256: f3f7fe1f85dcf8c718c72fa054d05590d3d84b6d2a794a4d678c77ea3c4e56f1
+Installed-Size: 392
+Depends: python3 (>= 3.7~), python3-alsaaudio (>= 0.8.4), python3-numpy, python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
+Filename: ./python3-opensesame-plugin-audio-low-latency_10.7.0-1~w2d0_all.deb
+Size: 85516
+MD5sum: 49509177bf8a3f5d39704dd919e68d0f
+SHA1: 06384087f63dd979df3d07e23acbba8ec9ddb7cd
+SHA256: 555fa010996d72463f49e92c9fc82332eef441800175216798cf688945809a52
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
 Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-experiment-manager
-Version: 0:3.0.1-1~w2d0
+Version: 0:3.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 69
+Installed-Size: 67
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-opensesame-plugin-experiment-manager_3.0.1-1~w2d0_all.deb
-Size: 18820
-MD5sum: a1353c5166e796cc9a3f87d73c3956b9
-SHA1: 867b6eadfb4a1598e75cd12b55cc3aa2fc0a4c84
-SHA256: bc7a54b1660909a6b35c850c0a38bd7edbdfb85319c6e4672861e351fb88d32d
+Filename: ./python3-opensesame-plugin-experiment-manager_3.1.0-1~w2d0_all.deb
+Size: 18684
+MD5sum: d0e3847fb60bb261fffe4b58868ff542
+SHA1: ba36f8db58ee52db2c204e30fee9fe9c8741217c
+SHA256: ecd228854c36b0d0efa369bcbc04f91bff0f07caea32bccefe016c4456b3a33d
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
 Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame experiments.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
@@ -229,19 +227,18 @@ Description: None
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-parallel-port-trigger
-Version: 0:4.1.1-1~w2d0
+Version: 0:4.2.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 279
-Depends: python3 (>= 3.4~), python3-parallel (>= 0.2.2), python3:any
-Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.1.1-1~w2d0_all.deb
-Size: 84776
-MD5sum: b91d0370a0cb83ef89cfc40896802816
-SHA1: 9a1a6ad1a2a1b5de049e5874eb14a9b589f3d5d1
-SHA256: 1771277127db97fc3de5ec612a4ee90f3a3ffe25a49b33ab9e22b31f75633d1e
+Installed-Size: 275
+Depends: python3 (>= 3.7~), python3-parallel (>= 0.2.2), python3:any
+Filename: ./python3-opensesame-plugin-parallel-port-trigger_4.2.0-1~w2d0_all.deb
+Size: 84456
+MD5sum: 2f141e9b1cf30d9e982bee7d493c5f88
+SHA1: f627db82d4b89b9184c9771613036f4a42c817b7
+SHA256: bc6f8b5e4e6face3ccb09d6b825e22a28a79fe85f8943953495e6083c1db8ae0
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
 Description: An OpenSesame Plug-in for sending stimulus synchronization triggers through the parallel port to data acquisition systems
  This package was automatically generated from the upstream wheel by wheel2deb.
 
@@ -263,53 +260,50 @@ Description: PsychoPy plugins for OpenSesame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-radboudbox
-Version: 0:4.1.1-1~w2d0
+Version: 0:4.2.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 136
-Depends: python3 (>= 3.4~), python3-rusocsci, python3:any
-Filename: ./python3-opensesame-plugin-radboudbox_4.1.1-1~w2d0_all.deb
-Size: 35872
-MD5sum: bf071a576d3a1c719c5e70c75d29e3d5
-SHA1: 28147ff6898460cb7e47a94b296737ae5b7ac13a
-SHA256: 94a51a4c17a3baeb001e9be6496ae998a56d426338148318fafc0eb3c8d49514
+Installed-Size: 122
+Depends: python3 (>= 3.7~), python3-rusocsci, python3:any
+Filename: ./python3-opensesame-plugin-radboudbox_4.2.0-1~w2d0_all.deb
+Size: 34652
+MD5sum: 639e794c10e21981975433963b5ba1ca
+SHA1: 91e4f8b0a38f3a28812dbb638b745f326a8367bc
+SHA256: bc46c8904692aa6876e27dcf9d8530898ebf69959b8f37b1c26619783b0eeb5c
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
 Description: An OpenSesame Plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-screenshot
-Version: 0:0.3.0-1~w2d0
+Version: 0:0.4.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 70
+Installed-Size: 69
 Depends: python3 (>= 3.7~), python3:any
-Filename: ./python3-opensesame-plugin-screenshot_0.3.0-1~w2d0_all.deb
-Size: 18896
-MD5sum: f46b0a976ccec4418b9be1e20263a8a4
-SHA1: 00e8c855dba940882e486004ed9ffc0765639b84
-SHA256: 0566e76f0b42da72a5b37829ec0f054316abd6e5c870d37886366d1f44a04913
+Filename: ./python3-opensesame-plugin-screenshot_0.4.0-1~w2d0_all.deb
+Size: 18768
+MD5sum: e8831560bb4c636f3a8b042bf68f5073
+SHA1: a566e0bc13f7830d653a4d6131ce76b395fdcc00
+SHA256: b9c69d316276063be0e795119daf175b441e5c52405ae88c59d66ebc5ee7a5eb
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-screenshot
 Description: An OpenSesame Plugin for saving screenshots of stimuli and other screens within an experiment.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-titta-eyetracking
-Version: 1:4.0.1-1~w2d0
+Version: 0:4.1.0-1~w2d0
 Architecture: all
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 148
+Installed-Size: 142
 Depends: python3 (>= 3.8~), python3-pandas, python3-titta (>= 2.1.0), python3-tittapy (>= 1.0.0), python3:any
-Filename: ./python3-opensesame-plugin-titta-eyetracking_4.0.1-1~w2d0_all.deb
-Size: 24952
-MD5sum: c74aae66117e9bb786a8d6c592da32d4
-SHA1: b071809ec55faab1661744fed559da51a0d4eeac
-SHA256: c986951960ed0b57eb55defb173595a740c103b2c58a2ec13da760f4fd032b89
+Filename: ./python3-opensesame-plugin-titta-eyetracking_4.1.0-1~w2d0_all.deb
+Size: 24740
+MD5sum: f80474f07834d39792f10b1b79965431
+SHA1: be9a65399c69a28988a3196a6a3224b4cc98b54b
+SHA256: 33ef7b6c953620a4f8adc1b61913c532078a334489ba79796f40cc116a1ca2f8
 Section: python
 Priority: optional
-Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
 Description: Titta Eye Tracking plugin for OpenSesame
  This package was automatically generated from the upstream wheel by wheel2deb.
 
